@@ -1,0 +1,20 @@
+{
+  "m-model-path": "./pputidame/inputs/m_model.json",
+  "genbank-path": "./pputidame/inputs/genome.gb",
+  "biocyc.genes": "./pputidame/inputs/genes.txt",
+  "biocyc.prots": "./pputidame/inputs/proteins.txt",
+  "biocyc.TUs": "./pputidame/inputs/TUs.txt",
+  "biocyc.RNAs": "./pputidame/inputs/RNAs.txt",
+  "biocyc.seqs": "./pputidame/inputs/sequences.fasta",
+  "df_gene_cplxs_mods_rxns": "./pputidame/building_data/automated-org-with-refs.xlsx",
+  "df_TranscriptionalUnits": "",
+  "df_matrix_stoichiometry": "./pputidame/building_data/reaction_matrix.txt",
+  "df_matrix_subrxn_stoich": "./pputidame/inputs/subreaction_matrix.txt",
+  "df_metadata_orphan_rxns": "./pputidame/building_data/orphan_and_spont_reactions.txt",
+  "df_metadata_metabolites": "./pputidame/inputs/me_metabolites.txt",
+  "out_directory": "./pputidame/",
+  "log_directory": "./pputidame/",
+  "run_bbh_blast": true,
+  "dev_reference": true,
+  "include_pseudo_genes": true
+}

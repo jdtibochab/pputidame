@@ -1,0 +1,3 @@
+Reaction	Complexes
+ASPTRA_a	CPLX1G01-77
+ASPTRA_b	CPLX1G01-77

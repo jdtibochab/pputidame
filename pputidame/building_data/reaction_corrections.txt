@@ -1,0 +1,37 @@
+reaction_id,gene_reaction_rule,name,reaction,notes
+dpm_import,,Dipyrromethane import,--> dpm_c,
+hemeD_synthesis,PP_0115,Heme D synthesis,h2o2_c + pheme_c --> hemed_c,
+3MBZALDH,PP_2492,,,
+3MBZDH,PP_1948,,,
+PACCOAE,PP_3278 and PP_3277 and PP_3274 and PP_3276,,,
+CBL1tonex,PP_5307 and PP_5306 and PP_5308,,,
+SPMPS,PP_1867,spermidine synthase,ametam_c + ptrc_c --> 5mta_c + h_c + spmd_c,
+APCS,PP_1867,aminopropylcadaverine synthase,15dap_c + ametam_c --> 5mta_c + h_c + na15dap_c,
+MTAN,PP_3254,methylthioadenosine nucleosidase,5mta_c + h2o_c --> 5mtr_c + ade_c,
+5MTRtpp,,5-Methylthio-D-ribose transport via proton symport (periplasm),5mtr_c + h_c --> 5mtr_p + h_p,
+5MTRtex,PP_0234 or PP_0944 or PP_0234,5-Methylthio-D-ribose transport via proton diffusion (extracellular to periplasm),5mtr_e <=> 5mtr_p,
+EX_5mtr_e,,5-Methylthio-D-ribose exchange,5mtr_e -->,
+ALDD19xr,PP_2680,,,
+EX_btd_14_RR_e,,"1,4 Butanediol exchange",btd_14_RR_e <--,
+14BUTOL,,"1,4 Butanediol uptake", btd_14_RR_e -->  btd_14_RR_p,
+14BDAL,PP_2674 and PP_2679,Alcohol dehydrogenase,btd_14_RR_p + 2 ficytc_c --> 4hbutal_p + 2 focytc_c + 2 h_c,
+4HPPTPP,,"1,4 Butanediol transport to cytosol",4hbutal_p --> 4hbutal_c,
+BUT1OATE,PP_2680,Aldehyde dehydrogenase,4hbutal_c + nadh_c +  o2_c --> 4hbya_c + nad_c + h2o_c,
+HBSUCC,PP_2049,Alcohol reduction,4hbya_c + nad_c --> succhyde_c + nadh_c + h_c,
+HYSUCC,PP_3151,Aldehyde reduction,succhyde_c + nad_c + h2o_c --> succ_c + nadh_c + 2 h_c,
+ACSUCC,PP_3122 and PP_3123,CoA Synthetase,succoa_c + acac_c --> succ_c + aacoa_c,
+HYBUAC,PP_2351 and PP_3122 or PP_3124,4hydroxybutanoate CoA formation,4hbya_c + succoa_c --> 4hbutcoa_c,
+HBCOA,PP_2048,CoA dehydrogenase,4hbutcoa_c + flxso_c + h_c --> succoa_c + flxr_c,
+HBCROA,PP_2047,hydroxycrotonyl CoA formation,4hbutcoa_c + flxso_c + h_c --> 4hycrocoa_c + flxr_c,
+HYBUT,PP_1412 and PP_3491,34hydroxybutyryl formation,4hycrocoa_c + h2o_c --> 34hbutcoa_c,
+43RYLKETO,PP_2048,"4-hydroxy-3-keto-butyryl-CoA formation",34hbutcoa_c + flxso_c + h_c --> 4hy3kbutcoa_c + flxr_c,
+GLYACE,PP_2051,"4-hydroxy-3-keto-butyryl-CoA breakdown",4hy3kbutcoa_c + succoa_c --> glycoa_c + accoa_c + succ_c,
+GLYCOA,,CoA release,glycoa_c + succ_c --> succoa_c + glyclt_c,
+
+# No evidence in BioCyc
+CAT23DOX,,,eliminate,
+# No evidence of ACALD and this makes P. putida produce ethanol from pyruvate
+ACALD,,,eliminate
+# Corrected using BioCyc
+3_4DHBZ1t_pp,,,34dhbz_p + h_p --> 34dhbz_c + h_c,
+CATECHOLtpp,,,catechol_p --> catechol_c,

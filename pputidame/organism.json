@@ -1,0 +1,94 @@
+{
+	"ME-Model-ID" : "pputida",
+	"growth_key" : "mu",
+
+	"complex_cofactors" : {
+		"fes_transfers" : { "erpA" : "G1G01-469-MONOMER", "iscA" : "G1G01-919-MONOMER", "sufA" : "" },
+		"biotin_subreactions" : { "mod_btn_c" : [ "biotin_ligase" ] },
+		"lipoate_subreactions" : { "mod_lipoyl_c" : [ "lipoyl_denovo", "lipoyl_scavenging" ] },
+		"fes_chaperones" : {},
+		"bmocogdp_chaperones" : {},
+		"FeFe/NiFe_complexes" : { "mod_FeFe_cofactor_c" : [], "mod_NiFe_cofactor_c" : [] }
+		},
+
+	"trna_misacylation" : { "Asn" : "Asp" },
+
+	"lipoprotein_precursors" : {},
+	"lipid_modifications" : [],
+
+	"unmodeled_protein_fraction" : 0.36,
+
+	"flux_of_biomass_constituents" : {
+		"10fthf_c": -0.000223,
+		"5mthf_c": -0.000223,
+		"accoa_c": -0.000279,
+		"adocbl_c": -0.000223,
+		"amet_c": -0.000223,
+		"bmocogdp_c": -0.000223,
+		"btamp_c": -0.000223,
+		"chor_c": -0.000223,
+		"coa_c": -0.000167,
+		"fad_c": -0.000223,
+		"gthrd_c": -0.000223,
+		"hemeO_c": -0.000223,
+		"malcoa_c": -3.1e-05,
+		"mlthf_c": -0.000223,
+		"mobd_c": -0.002817,
+		"mocogdp_c": -0.000223,
+		"murein3p3p_p": -0.001979,
+		"murein3px4p_p": -0.000326,
+		"murein4p4p_p": -0.007917,
+		"murein4px4p_p": -0.002941,
+		"murein4px4px4p_p": -6.6e-05,
+		"nad_c": -0.001786,
+		"nadh_c": -4.4e-05,
+		"nadp_c": -0.000111,
+		"nadph_c": -0.000335,
+		"pheme_c": -0.000223,
+		"pqqh2_c": -0.000223,
+		"ptrc_c": -0.03327,
+		"pydx5p_c": -0.000223,
+		"pyovd_kt_e": -0.000223,
+		"q8h2_c": -0.000223,
+		"ribflv_c": -0.000223,
+		"sheme_c": -0.000223,
+		"succoa_c": -9.8e-05,
+		"thf_c": -0.000223,
+		"thmnp_c": -0.000223,
+		"thmpp_c": -0.000223,
+		"udcpdp_c": -5.5e-05
+		},
+
+	"flux_of_lipid_constituents" : {
+		"clpn140_p": -1.8e-05,
+		"clpn160_p": -0.000578,
+		"clpn161_p": -0.002873,
+		"clpn180_p": -0.000192,
+		"clpn181_p": -0.001309,
+		"cpe160_c": -0.00041,
+		"cpg160_c": -0.000226,
+		"lipopb_c": -0.000223,
+		"lpspput_e": -0.008696,
+		"pe140_c": -0.000251,
+		"pe160_c": -0.007882,
+		"pe161_c": -0.039155,
+		"pe180_c": -0.002622,
+		"pe181_c": -0.017845,
+		"pg140_c": -0.000138,
+		"pg160_c": -0.004354,
+		"pg161_c": -0.021632,
+		"pg180_c": -0.001449,
+		"pg181_c": -0.009859
+		},
+
+	"braun's_lipoprotein" : [],
+	"braun's_lipid_mod" : "murein5px4p_p",
+	"braun's_lpp_flux" : -0.0,
+	"braun's_murein_flux" : -0.0,
+
+	"gr_data_doublings_per_hour" : [0, 0.6, 1.0, 1.5, 2.0, 2.5],
+    "percent_dna_data" : [0.0592, 0.0512, 0.0330, 0.0252, 0.0222, 0.0208],
+
+	"defer_to_rxn_matrix" : ["GLNTRAT"
+    ]
+}

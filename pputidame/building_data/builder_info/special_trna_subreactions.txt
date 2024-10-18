@@ -1,0 +1,2 @@
+,value
+sec_addition_at_UGA,"{'element_contribution': 'O:-1,Se:1', 'enzymes': ['G1G01-541-MONOMER', 'G1G01-542-MONOMER'], 'stoich': 'h_c:1,selnp_c:-1,pi_c:1,generic_tRNA_UGA_ser__L_c:-1'}"

@@ -1,0 +1,10 @@
+,value
+DnaK_dependent_folding,"{'enzymes': ['G1G01-5055-MONOMER', 'G1G01-5054-MONOMER_mod_zn2(4)', 'G1G01-5056-MONOMER'], 'stoich': 'atp_c:-1,h2o_c:-1,h_c:1,adp_c:1,pi_c:1', 'element_contribution': ''}"
+GroEL_dependent_folding,"{'enzymes': ['G1G01-1450-MONOMER', 'G1G01-1449-MONOMER'], 'stoich': 'atp_c:-7,h2o_c:-7,h_c:7,adp_c:7,pi_c:7', 'element_contribution': ''}"
+N_terminal_methionine_cleavage,"{'enzymes': ['G1G01-1686-MONOMER_mod_fe2(2)'], 'stoich': 'h2o_c:-1,met__L_c:1,h_c:1', 'element_contribution': 'H:-10,O:-1,C:-5,N:-1,S:-1'}"
+PrfA_mono_mediated_termination,"{'enzymes': ['G1G01-808-MONOMER'], 'stoich': '', 'element_contribution': ''}"
+PrfB_mono_mediated_termination,"{'enzymes': ['G1G01-1586-MONOMER'], 'stoich': '', 'element_contribution': ''}"
+generic_RF_mediated_termination,"{'enzymes': ['generic_RF'], 'stoich': '', 'element_contribution': ''}"
+peptide_chain_release,"{'enzymes': ['G1G01-947-MONOMER'], 'stoich': 'gtp_c:-1,h2o_c:-1,h_c:1,pi_c:1,gdp_c:1', 'element_contribution': ''}"
+peptide_deformylase_processing,"{'enzymes': ['G1G01-71-MONOMER_mod_fe2(1)'], 'stoich': 'h2o_c:-1,for_c:1', 'element_contribution': 'H:1,O:-1,C:-1'}"
+ribosome_recycler,"{'enzymes': ['G1G01-1691-MONOMER'], 'stoich': '', 'element_contribution': ''}"

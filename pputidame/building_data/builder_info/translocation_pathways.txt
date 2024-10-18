@@ -1,0 +1,10 @@
+,value
+bam,"{'enzymes': ['G1G01-440-MONOMER', 'Bam-CPLX']}"
+lol,"{'enzymes': ['LolCDE-CPLX', 'G1G01-4270-MONOMER', 'G1G01-799-MONOMER']}"
+sec,"{'enzymes': ['G1G01-5397-MONOMER', 'G1G01-1433-MONOMER', 'Sec-CPLX']}"
+secA,{'enzymes': ['G1G01-1433-MONOMER']}
+srp,"{'enzymes': ['SRP-CPLX', 'G1G01-5455-MONOMER', 'Sec-CPLX']}"
+srp_yidC,"{'enzymes': ['SRP-CPLX', 'G1G01-6-MONOMER', 'Sec-CPLX']}"
+tat,"{'enzymes': ['TatBC_octa', 'CPLX1G01-59']}"
+tat_alt,{'enzymes': ['TatBC_octa']}
+yidC,"{'enzymes': ['SRP-CPLX', 'G1G01-6-MONOMER']}"

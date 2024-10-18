@@ -1,0 +1,2 @@
+subreaction	enzymes
+sec_addition_at_UGA	G1G01-541-MONOMER,G1G01-542-MONOMER

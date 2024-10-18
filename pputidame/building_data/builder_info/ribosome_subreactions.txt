@@ -1,0 +1,4 @@
+,value
+RbfA_mono_assembly_factor_phase1,"{'enzyme': 'G1G01-5034-MONOMER', 'stoich': '', 'num_mods': 1}"
+RimM_mono_assembly_factor_phase1,"{'enzyme': 'G1G01-1555-MONOMER', 'stoich': '', 'num_mods': 1}"
+gtp_bound_30S_assembly_factor_phase1,"{'enzyme': 'G1G01-1526-MONOMER', 'stoich': 'gtp_c:-2,h2o_c:-2,h_c:2,pi_c:2,gdp_c:2', 'num_mods': 1}"

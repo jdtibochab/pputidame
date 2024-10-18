@@ -1,0 +1,17 @@
+complex_id,name,genes,mod,replace
+G1G01-919-MONOMER,,,4fe4s(1),
+G1G01-919-MONOMER,,,2fe2s(1),
+G1G01-2029-MONOMER,,,pydx5p(1),G1G01-2029-MONOMER_mod_pydx(1)
+CPLX1G01-44,,,2fe2s(1) AND 4fe4s(2) AND fad(1),CPLX1G01-44_mod_3fe4s(1)_mod_fad(1)_mod_2fe2s(1)_mod_4fe4s(1)
+RNase_E_tetra,RNase E,PP_1905(4),,
+Sec-CPLX,Sec Holo-Translocon,PP_0474(1) AND PP_0441(1) AND PP_5706(1) AND PP_0834(1) AND PP_0835(1) AND PP_0836(1),,
+TatBC_octa,Twin arginine protein translocation system,PP_1040(8) AND PP_5018(8),,
+Bam-CPLX,Outer Membrane Protein Assembly Complex,PP_1599(1) AND PP_0856(1) AND PP_1238(1) AND PP_0622(1) AND PP_4731(1),,
+LolCDE-CPLX,Lipoprotein release complex,PP_2154(2) AND PP_2155(1) AND PP_2156(1),,
+SRP-CPLX,Signal Recognition Particle Complex,PP_1461(1),,
+YheLMN-CPLX,Sulfurtransferase complex TusBCD,PP_3995(2) AND PP_3994(2) AND PP_3993(2),,
+G1G01-4893-DIMER,TrmH family RNA methyltransferase,PP_4585(2),,
+G1G01-914-DIMER,tRNA(cytosine(32)/uridine(32)-2-O)-methyltransferase TrmJ,PP_0839(2),,
+G1G01-2124-DIMER,tRNA pseudouridine (38-40)synthase,PP_1994(2),,
+G1G01-1556-DIMER,tRNA (guanosine(37)-N1)-methyltransferase TrmD,PP_1464(2),,
+G1G01-5237-DIMER,tRNA (adenosine(37)-N6)-dimethylallytransferase MiaA,PP_4895(2),,

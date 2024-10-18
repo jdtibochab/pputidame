@@ -1,0 +1,7 @@
+,value
+bmocogdp_chaperones,"{'enzymes': ['CPLX_dummy'], 'stoich': ''}"
+fes_chaperones,"{'enzymes': ['G1G01-3504-MONOMER'], 'stoich': ''}"
+fes_transfer,"{'enzymes': ['G1G01-919-MONOMER'], 'stoich': ''}"
+generic_2fe2s_transfer_complex,"{'enzymes': ['G1G01-919-MONOMER_mod_2fe2s(1)'], 'stoich': ''}"
+generic_4fe4s_transfer_complex,"{'enzymes': ['G1G01-919-MONOMER_mod_4fe4s(1)'], 'stoich': ''}"
+lipoate_modifications,"{'enzymes': ['G1G01-5138-MONOMER'], 'stoich': 'G1G01-2027-MONOMER_mod_pan4p_mod_lipo:-1,G1G01-2027-MONOMER_mod_pan4p:1,h_c:-1'}"

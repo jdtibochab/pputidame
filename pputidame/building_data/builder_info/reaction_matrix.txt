@@ -1,0 +1,17 @@
+Reaction,Metabolites,Stoichiometry
+ASPTRA_a,atp_c,-1.0
+ASPTRA_a,gln__L_c,-1.0
+ASPTRA_a,generic_tRNA_AAU_asp__L_c,-1.0
+ASPTRA_a,h2o_c,-1.0
+ASPTRA_a,adp_c,1.0
+ASPTRA_a,generic_tRNA_AAU_asn__L_c,1.0
+ASPTRA_a,glu__L_c,1.0
+ASPTRA_a,pi_c,1.0
+ASPTRA_b,atp_c,-1.0
+ASPTRA_b,gln__L_c,-1.0
+ASPTRA_b,generic_tRNA_AAC_asp__L_c,-1.0
+ASPTRA_b,h2o_c,-1.0
+ASPTRA_b,adp_c,1.0
+ASPTRA_b,generic_tRNA_AAC_asn__L_c,1.0
+ASPTRA_b,glu__L_c,1.0
+ASPTRA_b,pi_c,1.0
