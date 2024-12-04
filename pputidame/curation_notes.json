@@ -853,10 +853,6 @@
                     "reference_complex": "IscA_tetra"
                 },
                 {
-                    "complex": "CPLX_I2FE2SS2fdx-0",
-                    "reference_complex": "CPLX0-7908"
-                },
-                {
                     "complex": "CPLX_MCOATA-0",
                     "reference_complex": "MALONYL-COA-ACP-TRANSACYL-MONOMER"
                 },
@@ -943,6 +939,110 @@
             "to_do": "Confirm these metabolites are correctly defined in me_metabolites.txt"
         }
     ],
+    "update_amino_acid_trna_synthetases_from_homology": [
+        {
+            "msg": "Some enzymes defined in me_builder.org.amino_acid_trna_synthetase are different from the ones inferred from homology",
+            "triggered_by": [
+                {
+                    "amino_acid": "ala__L_c",
+                    "defined_ligase": "G1G01-4775-MONOMER_mod_zn2(4)",
+                    "inferred_ligase": "G1G01-4775-MONOMER_mod_zn2(4)"
+                },
+                {
+                    "amino_acid": "arg__L_c",
+                    "defined_ligase": "G1G01-5433-MONOMER_mod_mg2(1)",
+                    "inferred_ligase": "G1G01-5433-MONOMER_mod_mg2(1)"
+                },
+                {
+                    "amino_acid": "asp__L_c",
+                    "defined_ligase": "G1G01-1298-MONOMER",
+                    "inferred_ligase": "G1G01-1298-MONOMER"
+                },
+                {
+                    "amino_acid": "cys__L_c",
+                    "defined_ligase": "G1G01-3084-MONOMER_mod_zn2(1)",
+                    "inferred_ligase": "G1G01-3084-MONOMER_mod_zn2(1)"
+                },
+                {
+                    "amino_acid": "gln__L_c",
+                    "defined_ligase": "G1G01-3083-MONOMER",
+                    "inferred_ligase": "G1G01-3083-MONOMER"
+                },
+                {
+                    "amino_acid": "glu__L_c",
+                    "defined_ligase": "G1G01-2102-MONOMER_mod_mg2(1)_mod_zn2(1)",
+                    "inferred_ligase": "G1G01-2102-MONOMER_mod_mg2(1)_mod_zn2(1)"
+                },
+                {
+                    "amino_acid": "gly_c",
+                    "defined_ligase": "CPLX1G01-58",
+                    "inferred_ligase": "CPLX1G01-58"
+                },
+                {
+                    "amino_acid": "his__L_c",
+                    "defined_ligase": "G1G01-929-MONOMER_mod_mg2(4)",
+                    "inferred_ligase": "G1G01-929-MONOMER_mod_mg2(4)"
+                },
+                {
+                    "amino_acid": "ile__L_c",
+                    "defined_ligase": "G1G01-660-MONOMER_mod_zn2(2)",
+                    "inferred_ligase": "G1G01-660-MONOMER_mod_zn2(2)"
+                },
+                {
+                    "amino_acid": "leu__L_c",
+                    "defined_ligase": "G1G01-5131-MONOMER",
+                    "inferred_ligase": "G1G01-5131-MONOMER"
+                },
+                {
+                    "amino_acid": "lys__L_c",
+                    "defined_ligase": "G1G01-1587-MONOMER",
+                    "inferred_ligase": "generic_LYSINEaaRS"
+                },
+                {
+                    "amino_acid": "met__L_c",
+                    "defined_ligase": "G1G01-1170-MONOMER_mod_zn2(2)",
+                    "inferred_ligase": "G1G01-1170-MONOMER_mod_zn2(2)"
+                },
+                {
+                    "amino_acid": "phe__L_c",
+                    "defined_ligase": "CPLX1G01-137_mod_mg2(1)",
+                    "inferred_ligase": "CPLX1G01-137_mod_mg2(1)"
+                },
+                {
+                    "amino_acid": "pro__L_c",
+                    "defined_ligase": "G1G01-1290-MONOMER",
+                    "inferred_ligase": "G1G01-1290-MONOMER"
+                },
+                {
+                    "amino_acid": "ser__L_c",
+                    "defined_ligase": "G1G01-4267-MONOMER_mod_mg2(1)",
+                    "inferred_ligase": "G1G01-4267-MONOMER_mod_mg2(1)"
+                },
+                {
+                    "amino_acid": "thr__L_c",
+                    "defined_ligase": "G1G01-2636-MONOMER_mod_zn2(1)",
+                    "inferred_ligase": "G1G01-2636-MONOMER_mod_zn2(1)"
+                },
+                {
+                    "amino_acid": "trp__L_c",
+                    "defined_ligase": "G1G01-1398-MONOMER_mod_mg2(1)",
+                    "inferred_ligase": "G1G01-1398-MONOMER_mod_mg2(1)"
+                },
+                {
+                    "amino_acid": "tyr__L_c",
+                    "defined_ligase": "G1G01-472-MONOMER",
+                    "inferred_ligase": "G1G01-472-MONOMER"
+                },
+                {
+                    "amino_acid": "val__L_c",
+                    "defined_ligase": "G1G01-1050-MONOMER_mod_mg2(1)",
+                    "inferred_ligase": "G1G01-1050-MONOMER_mod_mg2(1)"
+                }
+            ],
+            "importance": "medium",
+            "to_do": "Confirm whether the definitions or homology calls are correct in me_builder.org.amino_acid_trna_synthetase. Curate the inputs in amino_acid_trna_synthetase.txt accordingly."
+        }
+    ],
     "check": [
         {
             "msg": "Some metabolites in me_metabolites.txt need curation",
@@ -970,6 +1070,67 @@
             ],
             "importance": "medium",
             "to_do": "Map or remove these metabolites in me_metabolites.txt"
+        }
+    ],
+    "check_me_coverage": [
+        {
+            "msg": "Some genes show homology, but no metabolic function.",
+            "triggered_by": [
+                "PP_0033 <-> b2257",
+                "PP_0198 <-> b3824",
+                "PP_0251 <-> b2174",
+                "PP_0582 <-> b2342",
+                "PP_0820 <-> b1584",
+                "PP_0861 <-> b0805",
+                "PP_0916 <-> b2923",
+                "PP_1036 <-> b2558",
+                "PP_1218 <-> b0736",
+                "PP_1348 <-> b0099",
+                "PP_1354 <-> b0842",
+                "PP_1482 <-> b1443",
+                "PP_1483 <-> b1442",
+                "PP_1486 <-> b1440",
+                "PP_1791 <-> b0352",
+                "PP_1831 <-> b2536",
+                "PP_1836 <-> b3040",
+                "PP_2021 <-> b0767",
+                "PP_2037 <-> b2800",
+                "PP_2198 <-> b0837",
+                "PP_2548 <-> b2240",
+                "PP_2759 <-> b3749",
+                "PP_2837 <-> b4356",
+                "PP_2860 <-> b0751",
+                "PP_2926 <-> b2028",
+                "PP_3016 <-> b3624",
+                "PP_3090 <-> b0957",
+                "PP_3120 <-> b1781",
+                "PP_3141 <-> b3794",
+                "PP_3175 <-> b2542",
+                "PP_3275 <-> b1391",
+                "PP_3349 <-> b0353",
+                "PP_3405 <-> b2578",
+                "PP_3463 <-> b1385",
+                "PP_3559 <-> b2678",
+                "PP_3647 <-> b1007",
+                "PP_3775 <-> b1059",
+                "PP_4013 <-> b1134",
+                "PP_4112 <-> b1206",
+                "PP_4274 <-> b2411",
+                "PP_4323 <-> b2197",
+                "PP_4453 <-> b0829",
+                "PP_4455 <-> b0831",
+                "PP_4578 <-> b3224",
+                "PP_4589 <-> b1033",
+                "PP_4637 <-> b3829",
+                "PP_4652 <-> b0591",
+                "PP_4661 <-> b3028",
+                "PP_4923 <-> b3035",
+                "PP_5023 <-> b0810",
+                "PP_5163 <-> b0459",
+                "PP_5212 <-> b3844"
+            ],
+            "importance": "critical",
+            "to_do": "Manually curate the M-model to correct GPRs or incorporate new reactions."
         }
     ]
 }

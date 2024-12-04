@@ -1,5 +1,5 @@
 #Glucose
-EX_glc__D_e,10
+EX_glc__D_e,5
 # Base definition
 EX_pi_e,100
 EX_na1_e,100

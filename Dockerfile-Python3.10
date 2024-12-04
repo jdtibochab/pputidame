@@ -1,0 +1,37 @@
+# Use the python3 official image as parent image
+FROM python:3.10
+
+# set shell
+RUN export SHELL=/bin/bash
+
+# Update
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+RUN apt-get update
+RUN apt-get install -y dialog apt-utils
+RUN apt-get upgrade -y
+RUN apt-get install -y htop git gcc nano
+RUN apt-get install -y libgfortran5
+RUN apt-get install -y libglpk-dev
+RUN apt-get install -y ncbi-blast+
+
+# Install ZenglerLab coralme software stack
+RUN python -m pip install coralme==1.1.5
+
+# jupyter and plot
+RUN python -m pip install ipykernel
+RUN python -m pip install matplotlib
+RUN python -m pip install seaborn
+RUN python -m pip install notebook
+RUN python -m pip install versioneer
+RUN python -m pip install importlib-metadata
+
+# Set the working directory
+WORKDIR /opt/notebooks
+
+# Set jupyter configuration
+RUN jupyter notebook --generate-config
+# RUN wget https://raw.githubusercontent.com/glucksfall/zenglerlab/master/jupyter_notebook_config.json --directory-prefix=/root/.jupyter
+COPY ./jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
+
+# Initiate jupyter server at runtime
+CMD ["jupyter", "notebook", "--notebook-dir=/opt", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root","--NotebookApp.token=''","--NotebookApp.password=''"]

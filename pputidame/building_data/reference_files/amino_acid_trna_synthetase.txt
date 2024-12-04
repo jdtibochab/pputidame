@@ -10,7 +10,7 @@ gly_c	CPLX1G01-58
 his__L_c	G1G01-929-MONOMER_mod_mg2(4)
 ile__L_c	G1G01-660-MONOMER_mod_zn2(2)
 leu__L_c	G1G01-5131-MONOMER
-lys__L_c	G1G01-1587-MONOMER
+lys__L_c	generic_LYSINEaaRS
 met__L_c	G1G01-1170-MONOMER_mod_zn2(2)
 phe__L_c	CPLX1G01-137_mod_mg2(1)
 pro__L_c	G1G01-1290-MONOMER

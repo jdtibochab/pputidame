@@ -213,7 +213,7 @@ PP_5432,PP_RS01070,,DUF2789 domain-containing protein,CDS,243.0,
 PP_5433,PP_RS01075,,hypothetical protein,CDS,639.0,
 PP_0202,PP_RS01080,,CBS domain-containing protein,CDS,438.0,
 PP_0203,PP_RS01085,,dipeptidase,CDS,1731.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
-PP_t74,PP_RS01090,,tRNA-Arg,tRNA,77.0,Translation
+PP_t74,PP_RS01090,,tRNA-Arg,tRNA,77.0,tRNA Charging
 PP_0204,PP_RS01095,,GntR family transcriptional regulator,CDS,750.0,
 PP_0205,PP_RS01100,,fumarate reductase/succinate dehydrogenase flavoprotein subunit,CDS,1725.0,Translation
 PP_0206,PP_RS01105,,ferredoxin family protein,CDS,246.0,
@@ -223,8 +223,8 @@ PP_0209,PP_RS01120,,ABC transporter ATP-binding protein,CDS,852.0,Metabolic:S_Tr
 PP_0210,PP_RS01125,,HEAT repeat domain-containing protein,CDS,966.0,
 PP_0211,PP_RS01130,,gamma-butyrobetaine hydroxylase-like domain-containing protein,CDS,282.0,
 PP_5434,PP_RS28825,,aryl-sulfate sulfotransferase,CDS,181.0,
-PP_0213,PP_RS01135,gabD,NADP-dependent succinate-semialdehyde dehydrogenase,CDS,1443.0,Metabolic:S_Lysine_Metabolism
-PP_0214,PP_RS01140,gabT,4-aminobutyrate--2-oxoglutarate transaminase,CDS,1278.0,Metabolic:S_Lysine_Metabolism
+PP_0213,PP_RS01135,gabD,NADP-dependent succinate-semialdehyde dehydrogenase,CDS,1443.0,Metabolic:S_Glutamate_Metabolism
+PP_0214,PP_RS01140,gabT,4-aminobutyrate--2-oxoglutarate transaminase,CDS,1278.0,Metabolic:S_Glutamate_Metabolism
 PP_0215,PP_RS01145,,response regulator,CDS,1260.0,
 PP_0216,PP_RS01150,,sensor domain-containing diguanylate cyclase,CDS,1029.0,
 PP_0217,PP_RS01155,desA,delta-9 fatty acid desaturase DesA,CDS,1185.0,Metabolic:S_Fatty_Acid__Biosynthesis
@@ -244,7 +244,7 @@ PP_0230,PP_RS01220,tauD,taurine dioxygenase,CDS,834.0,Metabolic:S_Sulfur_Metabol
 PP_0231,PP_RS01225,tauC,taurine ABC transporter permease TauC,CDS,840.0,Metabolic:S_Transport__ABC_system
 PP_0232,PP_RS01230,tauB,taurine ABC transporter ATP-binding subunit,CDS,789.0,Metabolic:S_Transport__ABC_system
 PP_0233,PP_RS01235,tauA,taurine ABC transporter substrate-binding protein,CDS,972.0,Metabolic:S_Transport__ABC_system
-PP_0234,PP_RS01240,,OprD family porin,CDS,1335.0,Metabolic: No subsystem
+PP_0234,PP_RS01240,,OprD family porin,CDS,1335.0,Metabolic:S_Transport__Outer_Membrane
 PP_0235,PP_RS01245,,peroxiredoxin,CDS,639.0,
 PP_0236,PP_RS01250,ssuE,NADPH-dependent FMN reductase,CDS,594.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_0237,PP_RS01255,,sulfonate ABC transporter substrate-binding protein,CDS,966.0,Metabolic:S_Transport__ABC_system
@@ -289,7 +289,7 @@ PP_0274,PP_RS01445,,type II toxin-antitoxin system HigA family antitoxin,CDS,474
 PP_5436,PP_RS01450,,integrase,CDS,188.0,
 PP_0275,PP_RS01455,,type II toxin-antitoxin system RelE/ParE family toxin,CDS,216.0,
 PP_0276,PP_RS01460,,helix-turn-helix domain-containing protein,CDS,324.0,
-PP_t73,PP_RS01465,,tRNA-Thr,tRNA,76.0,Translation
+PP_t73,PP_RS01465,,tRNA-Thr,tRNA,76.0,tRNA Charging
 PP_0277,PP_RS01470,,hypothetical protein,CDS,249.0,
 PP_0278,PP_RS01475,,DUF3077 domain-containing protein,CDS,275.0,
 PP_0279,PP_RS01480,,methyltransferase,CDS,1206.0,
@@ -300,7 +300,7 @@ PP_0283,PP_RS01500,,ABC transporter ATP-binding protein,CDS,774.0,Metabolic:S_Tr
 PP_0284,PP_RS01505,gabP,GABA permease,CDS,1386.0,Metabolic:S_Transport__Inner_Membrane
 PP_5439,PP_RS01510,,hypothetical protein,CDS,444.0,
 PP_5440,PP_RS01515,,hypothetical protein,CDS,228.0,
-PP_t72,PP_RS01520,,tRNA-Phe,tRNA,76.0,Translation
+PP_t72,PP_RS01520,,tRNA-Phe,tRNA,76.0,tRNA Charging
 PP_0285,PP_RS01525,,oxidative damage protection protein,CDS,273.0,
 PP_0286,PP_RS01530,mutY,A/G-specific adenine glycosylase,CDS,1068.0,
 PP_0287,PP_RS01535,,AsmA family protein,CDS,2247.0,
@@ -354,8 +354,8 @@ PP_0334,PP_RS01775,,IS110-like element ISPpu11 family transposase,CDS,1059.0,
 PP_0335,PP_RS01780,,glutathione S-transferase,CDS,624.0,
 PP_0336,PP_RS01785,msrA,peptide-methionine (S)-S-oxide reductase MsrA,CDS,669.0,Metabolic:Unassigned
 PP_0337,PP_RS01790,,bifunctional diguanylate cyclase/phosphodiesterase,CDS,2691.0,
-PP_0338,PP_RS01795,aceF,dihydrolipoyllysine-residue acetyltransferase,CDS,1641.0,Metabolic:S_Glycolysis
-PP_0339,PP_RS01800,aceE,"pyruvate dehydrogenase (acetyl-transferring), homodimeric type",CDS,2646.0,Metabolic:S_Glycolysis
+PP_0338,PP_RS01795,aceF,dihydrolipoyllysine-residue acetyltransferase,CDS,1641.0,Metabolic:S_Gluconeogenesis
+PP_0339,PP_RS01800,aceE,"pyruvate dehydrogenase (acetyl-transferring), homodimeric type",CDS,2646.0,Metabolic:S_Gluconeogenesis
 PP_0340,PP_RS01805,glnE,bifunctional [glutamate--ammonia ligase]-adenylyl-L-tyrosine phosphorylase/[glutamate--ammonia-ligase] adenylyltransferase,CDS,2934.0,
 PP_0341,PP_RS01810,waaF,lipopolysaccharide heptosyltransferase II,CDS,1050.0,Metabolic:S_Cell_Envelope_Biosynthesis__Lipid_A_Biosynthesis
 PP_0342,PP_RS01815,waaC,lipopolysaccharide heptosyltransferase I,CDS,1059.0,Metabolic:S_Cell_Envelope_Biosynthesis__Lipid_A_Biosynthesis
@@ -404,7 +404,7 @@ PP_0383,PP_RS02025,,NAD(P)/FAD-dependent oxidoreductase,CDS,1683.0,Metabolic:S_L
 PP_0384,PP_RS02030,,Lrp/AsnC family transcriptional regulator,CDS,462.0,
 PP_0385,PP_RS02035,,serine acetyltransferase,CDS,555.0,
 PP_5445,PP_RS28480,,site-specific integrase,CDS,120.0,
-PP_t71,PP_RS02040,,tRNA-Ile,tRNA,77.0,Translation
+PP_t71,PP_RS02040,,tRNA-Ile,tRNA,77.0,tRNA Charging
 PP_0386,PP_RS02045,,bifunctional diguanylate cyclase/phosphodiesterase,CDS,3744.0,
 PP_0387,PP_RS02050,rpoD,RNA polymerase sigma factor RpoD,CDS,1851.0,Transcription
 PP_0388,PP_RS02055,dnaG,DNA primase,CDS,1983.0,
@@ -454,18 +454,18 @@ PP_0432,PP_RS02270,argC,N-acetyl-gamma-glutamyl-phosphate reductase,CDS,1035.0,M
 PP_0433,PP_RS02275,erpA,iron-sulfur cluster insertion protein ErpA,CDS,351.0,Metabolic:S_Oxidative_Phosphorylation
 PP_0434,PP_RS02280,,anhydro-N-acetylmuramic acid kinase,CDS,1092.0,Metabolic:S_Cell_Envelope_Biosynthesis__Peptidoglycan_Biosynthesis
 PP_0435,PP_RS02285,,peptidoglycan DD-metalloendopeptidase family protein,CDS,1422.0,
-PP_0436,PP_RS02290,tyrS,tyrosine--tRNA ligase,CDS,1200.0,tRNA Charging
+PP_0436,PP_RS02290,tyrS,tyrosine--tRNA ligase,CDS,1200.0,Metabolic:S_tRNA_Charging
 PP_16SC,PP_RS02295,,16S ribosomal RNA,rRNA,1537.0,Translation
 PP_23SC,PP_RS02300,,23S ribosomal RNA,rRNA,2893.0,Translation
 PP_5SC,PP_RS02305,rrf,5S ribosomal RNA,rRNA,116.0,Translation
 PP_0437,PP_RS02310,birA,bifunctional biotin--[acetyl-CoA-carboxylase] ligase/biotin operon repressor BirA,CDS,960.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Biotin_Biosynthesis
 PP_0438,PP_RS02315,,pantothenate kinase,CDS,750.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Pantothenate_and_CoA_Biosynthesis
 PP_0439,PP_RS02320,,hypothetical protein,CDS,426.0,
-PP_t01,PP_RS02325,,tRNA-Tyr,tRNA,84.0,Translation
-PP_t02,PP_RS02330,,tRNA-Gly,tRNA,74.0,Translation
-PP_t03,PP_RS02335,,tRNA-Thr,tRNA,76.0,Translation
+PP_t01,PP_RS02325,,tRNA-Tyr,tRNA,84.0,tRNA Charging
+PP_t02,PP_RS02330,,tRNA-Gly,tRNA,74.0,tRNA Charging
+PP_t03,PP_RS02335,,tRNA-Thr,tRNA,76.0,tRNA Charging
 PP_0440,PP_RS02340,tuf,elongation factor Tu,CDS,1194.0,Translation
-PP_t04,PP_RS02345,,tRNA-Trp,tRNA,76.0,Translation
+PP_t04,PP_RS02345,,tRNA-Trp,tRNA,76.0,tRNA Charging
 PP_0441,PP_RS02350,secE,preprotein translocase subunit SecE,CDS,369.0,Post-translation
 PP_0442,PP_RS02355,nusG,transcription termination/antitermination protein NusG,CDS,534.0,Transcription
 PP_0443,PP_RS02360,rplK,50S ribosomal protein L11,CDS,432.0,Translation
@@ -478,9 +478,9 @@ PP_0449,PP_RS02390,rpsL,30S ribosomal protein S12,CDS,372.0,Translation
 PP_0450,PP_RS02395,rpsG,30S ribosomal protein S7,CDS,471.0,Translation
 PP_0451,PP_RS02400,fusA,elongation factor G,CDS,2148.0,Translation
 PP_0452,PP_RS02405,tuf,elongation factor Tu,CDS,1194.0,Translation
-PP_0453,PP_RS02410,rpsJ,30S ribosomal protein S10,CDS,312.0,Translation
-PP_0454,PP_RS02415,rplC,50S ribosomal protein L3,CDS,636.0,Translation
-PP_0455,PP_RS02420,rplD,50S ribosomal protein L4,CDS,603.0,Translation
+PP_0453,PP_RS02410,rpsJ,30S ribosomal protein S10,CDS,312.0,Transcription
+PP_0454,PP_RS02415,rplC,50S ribosomal protein L3,CDS,636.0,Transcription
+PP_0455,PP_RS02420,rplD,50S ribosomal protein L4,CDS,603.0,Transcription
 PP_0456,PP_RS02425,rplW,50S ribosomal protein L23,CDS,300.0,Translation
 PP_0457,PP_RS02430,rplB,50S ribosomal protein L2,CDS,825.0,Translation
 PP_0458,PP_RS02435,rpsS,30S ribosomal protein S19,CDS,276.0,Translation
@@ -503,7 +503,7 @@ PP_0474,PP_RS02515,secY,preprotein translocase subunit SecY,CDS,1332.0,Post-tran
 PP_0475,PP_RS02520,rpmJ,50S ribosomal protein L36,CDS,117.0,
 PP_0476,PP_RS02525,rpsM,30S ribosomal protein S13,CDS,357.0,Translation
 PP_0477,PP_RS02530,rpsK,30S ribosomal protein S11,CDS,390.0,Translation
-PP_0478,PP_RS02535,rpsD,30S ribosomal protein S4,CDS,621.0,Translation
+PP_0478,PP_RS02535,rpsD,30S ribosomal protein S4,CDS,621.0,Transcription
 PP_0479,PP_RS02540,rpoA,DNA-directed RNA polymerase subunit alpha,CDS,1002.0,Transcription
 PP_0480,PP_RS02545,rplQ,50S ribosomal protein L17,CDS,387.0,Translation
 PP_0481,PP_RS02550,,catalase,CDS,1440.0,Metabolic:Unassigned
@@ -518,7 +518,7 @@ PP_0489,PP_RS02590,fdnG,formate dehydrogenase-N subunit alpha,CDS,3069.0,Metabol
 PP_0490,PP_RS02595,fdxH,formate dehydrogenase subunit beta,CDS,951.0,Metabolic:S_Formaldehyde_Metabolism
 PP_0491,PP_RS02600,,formate dehydrogenase subunit gamma,CDS,657.0,Metabolic:S_Formaldehyde_Metabolism
 PP_0492,PP_RS02605,fdhE,formate dehydrogenase accessory protein FdhE,CDS,927.0,Metabolic:S_Formaldehyde_Metabolism
-PP_0493,PP_RS02610,selA,L-seryl-tRNA(Sec) selenium transferase,CDS,1428.0,Translation
+PP_0493,PP_RS02610,selA,L-seryl-tRNA(Sec) selenium transferase,CDS,1428.0,Metabolic:S_tRNA_Charging
 PP_0494,PP_RS02615,selB,selenocysteine-specific translation elongation factor,CDS,1923.0,Translation
 PP_t75,PP_RS02620,,tRNA-Sec,tRNA,96.0,tRNA Charging
 PP_0495,PP_RS02625,,asparaginase,CDS,999.0,Metabolic:S_Alanine_and_Aspartate_Metabolism
@@ -535,7 +535,7 @@ PP_0506,PP_RS02685,,FtsX-like permease family protein,CDS,1266.0,
 PP_0507,PP_RS02690,,ABC transporter ATP-binding protein,CDS,711.0,
 PP_0508,PP_RS02695,,DUF2796 domain-containing protein,CDS,582.0,
 PP_0509,PP_RS02700,,hypothetical protein,CDS,345.0,
-PP_0510,PP_RS02705,trxA,thioredoxin,CDS,873.0,Metabolic:Unassigned
+PP_0510,PP_RS02705,trxA,thioredoxin,CDS,873.0,Metabolic:S_Sulfur_Metabolism
 PP_0511,PP_RS02710,,methyltransferase,CDS,657.0,
 PP_0512,PP_RS02715,,YbaY family lipoprotein,CDS,447.0,
 PP_0513,PP_RS02720,nrdR,transcriptional regulator NrdR,CDS,465.0,
@@ -549,7 +549,7 @@ PP_0520,PP_RS02755,,phosphatidylglycerophosphatase A,CDS,504.0,Metabolic:S_Glyce
 PP_0521,PP_RS02760,,ABC transporter substrate-binding protein,CDS,744.0,
 PP_0522,PP_RS02765,ribA,GTP cyclohydrolase II,CDS,618.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Riboflavin_Metabolism
 PP_0523,PP_RS02770,,hypothetical protein,CDS,420.0,
-PP_0524,PP_RS02775,,cobalamin-binding protein,CDS,813.0,Metabolic:S_Transport__ABC_system
+PP_0524,PP_RS02775,,cobalamin-binding protein,CDS,813.0,Metabolic:S_Transport__Outer_Membrane
 PP_0525,PP_RS02780,,TonB-dependent receptor domain-containing protein,CDS,1842.0,Metabolic:S_Transport__Outer_Membrane
 PP_0526,PP_RS02785,,IS110-like element ISPpu10 family transposase,CDS,966.0,
 PP_0527,PP_RS02790,dxs,1-deoxy-D-xylulose-5-phosphate synthase,CDS,1896.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Terpenoid_backbone_biosynthesis
@@ -570,7 +570,7 @@ PP_0541,PP_RS02860,,GNAT family N-acetyltransferase,CDS,459.0,
 PP_0542,PP_RS02865,eutC,ethanolamine ammonia-lyase subunit EutC,CDS,819.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
 PP_0543,PP_RS02870,,ethanolamine ammonia-lyase subunit EutB,CDS,1395.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
 PP_0544,PP_RS02875,eat,ethanolamine permease,CDS,1449.0,Metabolic:S_Transport__Inner_Membrane
-PP_0545,PP_RS02880,,aldehyde dehydrogenase family protein,CDS,1521.0,Metabolic:S_Glycerophospholipid_Metabolism
+PP_0545,PP_RS02880,,aldehyde dehydrogenase family protein,CDS,1521.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Folate_Biosynthesis
 PP_0546,PP_RS02885,,sigma-54-dependent Fis family transcriptional regulator,CDS,2016.0,
 PP_0547,PP_RS02890,mpl,UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl- meso-diaminopimelate ligase,CDS,1350.0,Metabolic:S_Cell_Envelope_Biosynthesis
 PP_0548,PP_RS02895,ubiX,flavin prenyltransferase UbiX,CDS,630.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Ubiquinone_biosynthesis
@@ -624,8 +624,8 @@ PP_0595,PP_RS03130,,LysR family transcriptional regulator,CDS,918.0,
 PP_0596,PP_RS03135,,aspartate aminotransferase family protein,CDS,1347.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Dipeptide_Metabolism
 PP_0597,PP_RS03140,,CoA-acylating methylmalonate-semialdehyde dehydrogenase,CDS,1494.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Dipeptide_Metabolism
 PP_16SD,PP_RS03145,,16S ribosomal RNA,rRNA,1537.0,Translation
-PP_t05,PP_RS03150,,tRNA-Ile,tRNA,77.0,Translation
-PP_t06,PP_RS03155,,tRNA-Ala,tRNA,76.0,Translation
+PP_t05,PP_RS03150,,tRNA-Ile,tRNA,77.0,tRNA Charging
+PP_t06,PP_RS03155,,tRNA-Ala,tRNA,76.0,tRNA Charging
 PP_23SD,PP_RS03160,,23S ribosomal RNA,rRNA,2893.0,Translation
 PP_5SD,PP_RS03165,rrf,5S ribosomal RNA,rRNA,116.0,Translation
 PP_0598,PP_RS03170,,paraquat-inducible protein A,CDS,660.0,
@@ -657,10 +657,10 @@ PP_0623,PP_RS03300,rluD,23S rRNA pseudouridine(1911/1915/1917) synthase RluD,CDS
 PP_0624,PP_RS03305,pgeF,peptidoglycan editing factor PgeF,CDS,741.0,
 PP_0625,PP_RS03310,clpB,ATP-dependent chaperone ClpB,CDS,2565.0,
 PP_t07,PP_RS03315,,tRNA-Asn,tRNA,76.0,tRNA Charging
-PP_t08,PP_RS03320,,tRNA-Pro,tRNA,77.0,Translation
-PP_t09,PP_RS03325,,tRNA-Lys,tRNA,76.0,Translation
-PP_t10,PP_RS03330,,tRNA-Pro,tRNA,77.0,Translation
-PP_t11,PP_RS03335,,tRNA-Lys,tRNA,76.0,Translation
+PP_t08,PP_RS03320,,tRNA-Pro,tRNA,77.0,tRNA Charging
+PP_t09,PP_RS03325,,tRNA-Lys,tRNA,76.0,tRNA Charging
+PP_t10,PP_RS03330,,tRNA-Pro,tRNA,77.0,tRNA Charging
+PP_t11,PP_RS03335,,tRNA-Lys,tRNA,76.0,tRNA Charging
 PP_0626,PP_RS03340,,NAD(P)/FAD-dependent oxidoreductase,CDS,1296.0,Metabolic:S_Oxidative_Phosphorylation
 PP_0627,PP_RS03345,,DUF3094 domain-containing protein,CDS,174.0,
 PP_0628,PP_RS03350,,DUF1780 domain-containing protein,CDS,630.0,
@@ -671,7 +671,7 @@ PP_0631,PP_RS03370,coaE,dephospho-CoA kinase,CDS,624.0,Metabolic:S_Cofactor_and_
 PP_0632,PP_RS03375,,A24 family peptidase,CDS,867.0,
 PP_0633,PP_RS03380,,type II secretion system F family protein,CDS,1209.0,
 PP_0634,PP_RS03385,,pilin,CDS,411.0,
-PP_t12,PP_RS03390,,tRNA-Thr,tRNA,76.0,Translation
+PP_t12,PP_RS03390,,tRNA-Thr,tRNA,76.0,tRNA Charging
 PP_0635,PP_RS03395,ltrA,group II intron reverse transcriptase/maturase,CDS,1422.0,
 PP_0636,PP_RS03400,,cold shock domain-containing protein,CDS,741.0,
 PP_0637,PP_RS03410,,IS66-like element ISPpu15 family transposase,CDS,1533.0,
@@ -697,8 +697,8 @@ PP_0655,PP_RS03505,,type VI secretion system tube protein Hcp,CDS,252.0,
 PP_5454,PP_RS03510,,hypothetical protein,CDS,360.0,
 PP_0656,PP_RS03515,,amino acid ABC transporter permease,CDS,822.0,
 PP_0657,PP_RS03520,,ABC transporter substrate-binding protein,CDS,822.0,
-PP_0658,PP_RS03525,,homocysteine S-methyltransferase family protein,CDS,885.0,Metabolic:S_Methionine_Metabolism
-PP_0659,PP_RS03530,,cystathionine gamma-synthase family protein,CDS,1272.0,Metabolic:S_Methionine_Metabolism
+PP_0658,PP_RS03525,,homocysteine S-methyltransferase family protein,CDS,885.0,Metabolic:S_Cysteine_Metabolism
+PP_0659,PP_RS03530,,cystathionine gamma-synthase family protein,CDS,1272.0,Metabolic:S_Cysteine_Metabolism
 PP_0660,PP_RS03535,,amino acid permease,CDS,1440.0,Metabolic:S_Transport__Inner_Membrane
 PP_0661,PP_RS03540,,LysR substrate-binding domain-containing protein,CDS,885.0,
 PP_0662,PP_RS03545,,threonine synthase,CDS,1389.0,Metabolic:S_Glycine__Serine_and_threonine_metabolism
@@ -739,7 +739,7 @@ PP_0697,PP_RS03720,rimI,ribosomal protein S18-alanine N-acetyltransferase,CDS,45
 PP_5455,PP_RS03725,,D-Ala-D-Ala carboxypeptidase family metallohydrolase,CDS,576.0,
 PP_0698,PP_RS03730,,LysR substrate-binding domain-containing protein,CDS,918.0,
 PP_0699,PP_RS03735,,LysE family translocator,CDS,615.0,
-PP_t70,PP_RS03740,,tRNA-Met,tRNA,77.0,Translation
+PP_t70,PP_RS03740,,tRNA-Met,tRNA,77.0,tRNA Charging
 PP_0700,PP_RS03745,,FecR domain-containing protein,CDS,924.0,
 PP_0701,PP_RS03750,,MFS transporter,CDS,1215.0,
 PP_0702,PP_RS03755,,MFS transporter,CDS,1158.0,
@@ -763,7 +763,7 @@ PP_0719,PP_RS03840,ychF,redox-regulated ATPase YchF,CDS,1101.0,
 PP_0720,PP_RS03845,pth,aminoacyl-tRNA hydrolase,CDS,585.0,
 PP_0721,PP_RS03850,,50S ribosomal protein L25/general stress protein Ctc,CDS,594.0,Translation
 PP_0722,PP_RS03855,,ribose-phosphate pyrophosphokinase,CDS,942.0,Metabolic:S_Alternate_Carbon__Ribose_Metabolism
-PP_t69,PP_RS03860,,tRNA-Gln,tRNA,75.0,Translation
+PP_t69,PP_RS03860,,tRNA-Gln,tRNA,75.0,tRNA Charging
 PP_0723,PP_RS03865,ispE,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase,CDS,861.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Terpenoid_backbone_biosynthesis
 PP_0724,PP_RS03870,lolB,lipoprotein insertase outer membrane protein LolB,CDS,618.0,
 PP_0725,PP_RS03875,,tetratricopeptide repeat protein,CDS,1722.0,
@@ -805,7 +805,7 @@ PP_0759,PP_RS04055,,M48 family metallopeptidase,CDS,819.0,
 PP_0760,PP_RS04060,,TMEM165/GDT1 family protein,CDS,585.0,
 PP_0761,PP_RS04065,,class I SAM-dependent methyltransferase,CDS,999.0,
 PP_0762,PP_RS04070,,2-hydroxyacid dehydrogenase,CDS,966.0,Metabolic:S_Glyoxylate_and_dicarboxylate_metabolism
-PP_0763,PP_RS04075,,fatty acid--CoA ligase,CDS,1683.0,Metabolic:S_Fatty_Acid__Biosynthesis
+PP_0763,PP_RS04075,,fatty acid--CoA ligase,CDS,1683.0,Metabolic:S_PHAs_Metabolism
 PP_0765,PP_RS04080,,DUF1302 domain-containing protein,CDS,1887.0,
 PP_0766,PP_RS04085,,DUF1329 domain-containing protein,CDS,1365.0,
 PP_0767,PP_RS04090,,LuxR C-terminal-related transcriptional regulator,CDS,2718.0,
@@ -870,29 +870,29 @@ PP_0828,PP_RS04385,,bestrophin family protein,CDS,894.0,
 PP_0829,PP_RS04390,,addiction module antidote protein,CDS,297.0,
 PP_0830,PP_RS04395,,GNAT family N-acetyltransferase,CDS,480.0,
 PP_0831,PP_RS04400,,trypsin-like peptidase domain-containing protein,CDS,648.0,
-PP_t68,PP_RS04405,,tRNA-Leu,tRNA,85.0,Translation
+PP_t68,PP_RS04405,,tRNA-Leu,tRNA,85.0,tRNA Charging
 PP_0832,PP_RS04410,queA,tRNA preQ1(34) S-adenosylmethionine ribosyltransferase-isomerase QueA,CDS,1050.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Queuosine_biosynthesis
 PP_0833,PP_RS04415,tgt,tRNA guanosine(34) transglycosylase Tgt,CDS,1116.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Queuosine_biosynthesis
 PP_0834,PP_RS04420,yajC,preprotein translocase subunit YajC,CDS,336.0,Post-translation
 PP_0835,PP_RS04425,secD,protein translocase subunit SecD,CDS,1863.0,Post-translation
 PP_0836,PP_RS04430,secF,protein translocase subunit SecF,CDS,909.0,Post-translation
 PP_0837,PP_RS04435,,glycine zipper 2TM domain-containing protein,CDS,543.0,
-PP_0838,PP_RS04440,suhB,inositol-phosphate phosphatase,CDS,819.0,Metabolic:S_Cell_Envelope_Biosynthesis
+PP_0838,PP_RS04440,suhB,inositol-phosphate phosphatase,CDS,819.0,Metabolic:S_Alternate_Carbon
 PP_0839,PP_RS04445,trmJ,tRNA (cytosine(32)/uridine(32)-2'-O)-methyltransferase TrmJ,CDS,756.0,tRNA Charging
 PP_0840,PP_RS04450,cysE,serine O-acetyltransferase,CDS,786.0,Metabolic:S_Cysteine_Metabolism
 PP_0841,PP_RS04455,iscR,Fe-S cluster assembly transcriptional regulator IscR,CDS,492.0,
-PP_0842,PP_RS04460,,IscS subfamily cysteine desulfurase,CDS,1215.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Thiamine_Metabolism
+PP_0842,PP_RS04460,,IscS subfamily cysteine desulfurase,CDS,1215.0,tRNA Charging
 PP_0843,PP_RS04465,iscU,Fe-S cluster assembly scaffold IscU,CDS,387.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__FeS_clusters_metabolism
 PP_0844,PP_RS04470,iscA,iron-sulfur cluster assembly protein IscA,CDS,324.0,Metabolic:S_Oxidative_Phosphorylation
 PP_0845,PP_RS04475,hscB,co-chaperone HscB,CDS,522.0,
 PP_0846,PP_RS04480,hscA,Fe-S protein assembly chaperone HscA,CDS,1863.0,
-PP_0847,PP_RS04485,fdx,ISC system 2Fe-2S type ferredoxin,CDS,342.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__FeS_clusters_metabolism
+PP_0847,PP_RS04485,fdx,ISC system 2Fe-2S type ferredoxin,CDS,342.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_0848,PP_RS04490,iscX,Fe-S cluster assembly protein IscX,CDS,201.0,
 PP_0849,PP_RS04495,ndk,nucleoside-diphosphate kinase,CDS,426.0,Metabolic:S_Pyrimidine_Metabolism
 PP_0850,PP_RS04500,rlmN,23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN,CDS,1146.0,Translation
 PP_0851,PP_RS04505,pilW,type IV pilus biogenesis/stability protein PilW,CDS,762.0,
 PP_0852,PP_RS04510,,RodZ domain-containing protein,CDS,1008.0,
-PP_0853,PP_RS04515,ispG,flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase,CDS,1110.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Terpenoid_backbone_biosynthesis
+PP_0853,PP_RS04515,ispG,flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase,CDS,1110.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_0854,PP_RS04520,hisS,histidine--tRNA ligase,CDS,1290.0,tRNA Charging
 PP_0855,PP_RS04525,,tetratricopeptide repeat protein,CDS,642.0,
 PP_0856,PP_RS04530,bamB,outer membrane protein assembly factor BamB,CDS,1143.0,
@@ -981,7 +981,7 @@ PP_0940,PP_RS04940,tldD,metalloprotease TldD,CDS,1440.0,
 PP_0941,PP_RS04945,yjgA,ribosome biogenesis factor YjgA,CDS,522.0,
 PP_0942,PP_RS04950,pmbA,metalloprotease PmbA,CDS,1347.0,
 PP_0943,PP_RS04955,,hypothetical protein,CDS,402.0,
-PP_0944,PP_RS04960,,lyase family protein,CDS,1377.0,Metabolic: No subsystem
+PP_0944,PP_RS04960,,lyase family protein,CDS,1377.0,Metabolic:S_TCA_Cycle
 PP_0945,PP_RS04965,,hypothetical protein,CDS,462.0,
 PP_0946,PP_RS04970,,superoxide dismutase,CDS,612.0,Metabolic:Unassigned
 PP_0947,PP_RS04975,,ZIP family metal transporter,CDS,894.0,
@@ -1214,9 +1214,9 @@ PP_1170,PP_RS06085,,SMP-30/gluconolactonase/LRE family protein,CDS,882.0,
 PP_1171,PP_RS06090,,NAD(P)-dependent oxidoreductase,CDS,807.0,Metabolic:S_Alternate_Carbon__Ascorbate_and_Aldarate_Metabolism
 PP_1173,PP_RS06095,,OprD family porin,CDS,1239.0,Metabolic:S_Transport__Outer_Membrane
 PP_1174,PP_RS28785,,hypothetical protein,CDS,135.0,
-PP_1177,PP_RS06105,,ribonucleotide-diphosphate reductase subunit beta,CDS,1251.0,Metabolic:S_Pyrimidine_Metabolism
+PP_1177,PP_RS06105,,ribonucleotide-diphosphate reductase subunit beta,CDS,1251.0,Metabolic:S_Purine_Metabolism
 PP_1178,PP_RS28790,,hypothetical protein,CDS,132.0,
-PP_1179,PP_RS06110,,ribonucleoside-diphosphate reductase subunit alpha,CDS,2880.0,Metabolic:S_Pyrimidine_Metabolism
+PP_1179,PP_RS06110,,ribonucleoside-diphosphate reductase subunit alpha,CDS,2880.0,Metabolic:S_Purine_Metabolism
 PP_1181,PP_RS06115,,response regulator transcription factor,CDS,699.0,
 PP_1182,PP_RS06120,,ATP-binding protein,CDS,1608.0,
 PP_1183,PP_RS06125,,4'-phosphopantetheinyl transferase,CDS,702.0,Metabolic:S_Cell_Envelope_Biosynthesis
@@ -1239,9 +1239,9 @@ PP_1199,PP_RS06205,,hypothetical protein,CDS,315.0,
 PP_1200,PP_RS06210,,potassium transporter Kup,CDS,1911.0,Metabolic:S_Transport__Inner_Membrane
 PP_1201,PP_RS06215,,virulence factor family protein,CDS,1293.0,
 PP_1202,PP_RS06220,mprF,bifunctional lysylphosphatidylglycerol flippase/synthetase MprF,CDS,2643.0,
-PP_t67,PP_RS06225,,tRNA-Met,tRNA,77.0,Translation
-PP_t66,PP_RS06230,,tRNA-Met,tRNA,77.0,Translation
-PP_t65,PP_RS06235,,tRNA-Met,tRNA,77.0,Translation
+PP_t67,PP_RS06225,,tRNA-Met,tRNA,77.0,tRNA Charging
+PP_t66,PP_RS06230,,tRNA-Met,tRNA,77.0,tRNA Charging
+PP_t65,PP_RS06235,,tRNA-Met,tRNA,77.0,tRNA Charging
 PP_1203,PP_RS06240,dinB,DNA polymerase IV,CDS,1059.0,
 PP_1204,PP_RS06245,,hypothetical protein,CDS,954.0,
 PP_1205,PP_RS06250,,proline--tRNA ligase,CDS,1716.0,tRNA Charging
@@ -1266,7 +1266,7 @@ PP_1223,PP_RS06340,pal,peptidoglycan-associated lipoprotein Pal,CDS,501.0,
 PP_1224,PP_RS06345,ybgF,tol-pal system protein YbgF,CDS,807.0,
 PP_1225,PP_RS06350,queE,7-carboxy-7-deazaguanine synthase QueE,CDS,648.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Queuosine_biosynthesis
 PP_1226,PP_RS06355,queC,7-cyano-7-deazaguanine synthase QueC,CDS,675.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Queuosine_biosynthesis
-PP_t13,PP_RS06360,,tRNA-Lys,tRNA,76.0,Translation
+PP_t13,PP_RS06360,,tRNA-Lys,tRNA,76.0,tRNA Charging
 PP_1227,PP_RS06365,,cation diffusion facilitator family transporter,CDS,960.0,
 PP_1228,PP_RS06370,mcpU,methyl-accepting chemotaxis protein McpU,CDS,2067.0,
 PP_1229,PP_RS06375,,APC family permease,CDS,1353.0,Metabolic:S_Transport__Inner_Membrane
@@ -1281,7 +1281,7 @@ PP_1237,PP_RS06415,dapA,4-hydroxy-tetrahydrodipicolinate synthase,CDS,888.0,Meta
 PP_1238,PP_RS06420,bamC,outer membrane protein assembly factor BamC,CDS,1122.0,
 PP_1239,PP_RS06425,,MBL fold metallo-hydrolase,CDS,759.0,
 PP_1240,PP_RS06430,purC,phosphoribosylaminoimidazolesuccinocarboxamide synthase,CDS,711.0,Metabolic:S_Purine_Metabolism
-PP_t14,PP_RS06435,,tRNA-Ser,tRNA,90.0,Translation
+PP_t14,PP_RS06435,,tRNA-Ser,tRNA,90.0,tRNA Charging
 PP_1241,PP_RS06440,,addiction module antidote protein,CDS,351.0,
 PP_1242,PP_RS06445,,DUF3077 domain-containing protein,CDS,273.0,
 PP_1244,PP_RS06450,,hypothetical protein,CDS,258.0,
@@ -1335,7 +1335,7 @@ PP_1291,PP_RS06685,,PhoH family protein,CDS,1395.0,
 PP_1292,PP_RS06690,moaC,cyclic pyranopterin monophosphate synthase MoaC,CDS,471.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Molybdopterin_Biosynthesis
 PP_1293,PP_RS06695,moaD,molybdopterin converting factor subunit 1,CDS,246.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Molybdopterin_Biosynthesis
 PP_1294,PP_RS06700,moaE,molybdopterin synthase catalytic subunit MoaE,CDS,447.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Molybdopterin_Biosynthesis
-PP_1295,PP_RS06705,rhlB,ATP-dependent RNA helicase RhlB,CDS,1443.0,Translation
+PP_1295,PP_RS06705,rhlB,ATP-dependent RNA helicase RhlB,CDS,1443.0,Transcription
 PP_1296,PP_RS06710,,alpha/beta hydrolase,CDS,657.0,
 PP_1297,PP_RS06715,,amino acid ABC transporter substrate-binding protein,CDS,1029.0,Metabolic:S_Transport__ABC_system
 PP_1298,PP_RS06720,,amino acid ABC transporter permease,CDS,1179.0,Metabolic:S_Transport__ABC_system
@@ -1355,7 +1355,7 @@ PP_1311,PP_RS06785,,tryptophan--tRNA ligase,CDS,1350.0,tRNA Charging
 PP_1312,PP_RS06790,zapE,cell division protein ZapE,CDS,1095.0,
 PP_1313,PP_RS06795,,GlxA family transcriptional regulator,CDS,921.0,
 PP_1314,PP_RS06800,,NADP(H)-dependent aldo-keto reductase,CDS,1041.0,
-PP_1315,PP_RS06805,rplM,50S ribosomal protein L13,CDS,429.0,Translation
+PP_1315,PP_RS06805,rplM,50S ribosomal protein L13,CDS,429.0,Transcription
 PP_1316,PP_RS06810,rpsI,30S ribosomal protein S9,CDS,393.0,Translation
 PP_1317,PP_RS06815,petA,ubiquinol-cytochrome c reductase iron-sulfur subunit,CDS,594.0,Metabolic:S_Oxidative_Phosphorylation
 PP_1318,PP_RS06820,,cytochrome bc complex cytochrome b subunit,CDS,1212.0,Metabolic:S_Oxidative_Phosphorylation
@@ -1448,7 +1448,7 @@ PP_1404,PP_RS07245,,TPM domain-containing protein,CDS,618.0,
 PP_5469,PP_RS07250,,SAM-dependent methyltransferase,CDS,1215.0,
 PP_1406,PP_RS07255,,DUF4917 family protein,CDS,1011.0,
 PP_1407,PP_RS07260,,SulP family inorganic anion transporter,CDS,1707.0,Metabolic:S_Transport__Inner_Membrane
-PP_t64,PP_RS07265,,tRNA-Gly,tRNA,74.0,Translation
+PP_t64,PP_RS07265,,tRNA-Gly,tRNA,74.0,tRNA Charging
 PP_1408,PP_RS07270,phaG,(R)-3-hydroxydecanoyl-ACP:CoA transacylase,CDS,888.0,Metabolic:S_PHAs_Metabolism
 PP_1409,PP_RS07275,,pseudouridine synthase,CDS,693.0,Translation
 PP_1410,PP_RS07280,,cysteine-rich CWC family protein,CDS,213.0,
@@ -1456,7 +1456,7 @@ PP_1411,PP_RS07285,,diguanylate cyclase,CDS,1482.0,
 PP_5470,PP_RS07290,,hypothetical protein,CDS,450.0,
 PP_1412,PP_RS07295,,enoyl-CoA hydratase/isomerase family protein,CDS,1107.0,Metabolic: No subsystem
 PP_1413,PP_RS07300,ung,uracil-DNA glycosylase,CDS,693.0,
-PP_1414,PP_RS07305,,bifunctional metallophosphatase/5'-nucleotidase,CDS,1683.0,Metabolic:S_Pyrimidine_Metabolism
+PP_1414,PP_RS07305,,bifunctional metallophosphatase/5'-nucleotidase,CDS,1683.0,Metabolic:S_Purine_Metabolism
 PP_1415,PP_RS07310,,AbrB family transcriptional regulator,CDS,1056.0,
 PP_1416,PP_RS07315,,tripartite tricarboxylate transporter permease,CDS,1515.0,Metabolic:S_Transport__Inner_Membrane
 PP_1417,PP_RS07320,,tripartite tricarboxylate transporter TctB family protein,CDS,459.0,Metabolic:S_Transport__Inner_Membrane
@@ -1547,7 +1547,7 @@ PP_1502,PP_RS07740,,OmpA family protein,CDS,792.0,
 PP_1503,PP_RS07745,,DUF4398 domain-containing protein,CDS,414.0,
 PP_1504,PP_RS07750,,hypothetical protein,CDS,345.0,
 PP_1505,PP_RS07755,ppc,phosphoenolpyruvate carboxylase,CDS,2628.0,Metabolic:S_Glycolysis
-PP_1506,PP_RS07760,adk,adenylate kinase,CDS,651.0,Metabolic:S_Pyrimidine_Metabolism
+PP_1506,PP_RS07760,adk,adenylate kinase,CDS,651.0,Metabolic:S_Purine_Metabolism
 PP_1507,PP_RS07765,tsaB,tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB,CDS,675.0,
 PP_1508,PP_RS07770,,hypothetical protein,CDS,291.0,
 PP_1509,PP_RS07775,,DUF72 domain-containing protein,CDS,870.0,
@@ -1645,7 +1645,7 @@ PP_1598,PP_RS08245,rseP,RIP metalloprotease RseP,CDS,1353.0,
 PP_1599,PP_RS08250,bamA,outer membrane protein assembly factor BamA,CDS,2361.0,
 PP_1600,PP_RS08255,,OmpH family outer membrane protein,CDS,504.0,
 PP_1601,PP_RS08260,lpxD,UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase,CDS,1056.0,Metabolic:S_Cell_Envelope_Biosynthesis__Lipid_A_Biosynthesis
-PP_1602,PP_RS08265,fabZ,3-hydroxyacyl-ACP dehydratase FabZ,CDS,441.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Biotin_Biosynthesis
+PP_1602,PP_RS08265,fabZ,3-hydroxyacyl-ACP dehydratase FabZ,CDS,441.0,Metabolic:S_Fatty_Acid__Biosynthesis
 PP_1603,PP_RS08270,lpxA,acyl-ACP--UDP-N-acetylglucosamine O-acyltransferase,CDS,777.0,Metabolic:S_Cell_Envelope_Biosynthesis__Lipid_A_Biosynthesis
 PP_1604,PP_RS08275,lpxB,lipid-A-disaccharide synthase,CDS,1128.0,Metabolic:S_Cell_Envelope_Biosynthesis__Lipid_A_Biosynthesis
 PP_1605,PP_RS08280,rnhB,ribonuclease HII,CDS,624.0,
@@ -1654,20 +1654,20 @@ PP_1607,PP_RS08290,,acetyl-CoA carboxylase carboxyltransferase subunit alpha,CDS
 PP_1608,PP_RS08295,tilS,tRNA lysidine(34) synthetase TilS,CDS,1284.0,
 PP_1610,PP_RS08300,,CTP synthase,CDS,1629.0,Metabolic:S_Pyrimidine_Metabolism
 PP_1611,PP_RS08305,kdsA,3-deoxy-8-phosphooctulonate synthase,CDS,846.0,Metabolic:S_Cell_Envelope_Biosynthesis
-PP_1612,PP_RS08310,eno,phosphopyruvate hydratase,CDS,1290.0,Translation
+PP_1612,PP_RS08310,eno,phosphopyruvate hydratase,CDS,1290.0,Transcription
 PP_1613,PP_RS08315,ftsB,cell division protein FtsB,CDS,282.0,
 PP_1614,PP_RS08320,ispD,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,CDS,708.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Terpenoid_backbone_biosynthesis
 PP_1615,PP_RS08325,,LysR substrate-binding domain-containing protein,CDS,897.0,
-PP_1616,PP_RS08330,,S-(hydroxymethyl)glutathione dehydrogenase/class III alcohol dehydrogenase,CDS,1113.0,Metabolic:S_Glycerophospholipid_Metabolism
+PP_1616,PP_RS08330,,S-(hydroxymethyl)glutathione dehydrogenase/class III alcohol dehydrogenase,CDS,1113.0,Metabolic:S_Formaldehyde_Metabolism
 PP_1617,PP_RS08335,fghA,S-formylglutathione hydrolase,CDS,855.0,Metabolic:S_Formaldehyde_Metabolism
 PP_1618,PP_RS08340,ispF,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",CDS,474.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Terpenoid_backbone_biosynthesis
 PP_1619,PP_RS08345,truD,tRNA pseudouridine(13) synthase TruD,CDS,1059.0,
-PP_1620,PP_RS08350,surE,5'/3'-nucleotidase SurE,CDS,750.0,Metabolic:S_Pyrimidine_Metabolism
+PP_1620,PP_RS08350,surE,5'/3'-nucleotidase SurE,CDS,750.0,Metabolic:S_Purine_Metabolism
 PP_1621,PP_RS08355,,protein-L-isoaspartate(D-aspartate) O-methyltransferase,CDS,639.0,
 PP_1622,PP_RS08360,,peptidoglycan DD-metalloendopeptidase family protein,CDS,858.0,
 PP_1623,PP_RS08365,rpoS,RNA polymerase sigma factor RpoS,CDS,1008.0,
 PP_1624,PP_RS08370,ltrA,group II intron reverse transcriptase/maturase,CDS,1422.0,
-PP_1625,PP_RS08375,fdxA,ferredoxin FdxA,CDS,324.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Terpenoid_backbone_biosynthesis
+PP_1625,PP_RS08375,fdxA,ferredoxin FdxA,CDS,324.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_1626,PP_RS08380,mutS,DNA mismatch repair protein MutS,CDS,2574.0,
 PP_1627,PP_RS08385,,hypothetical protein,CDS,1068.0,
 PP_1628,PP_RS08390,,CinA family protein,CDS,483.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Nicotinamide_Biosynthesis
@@ -1743,10 +1743,10 @@ PP_1699,PP_RS08730,,amidohydrolase,CDS,834.0,
 PP_1700,PP_RS08735,,MFS transporter,CDS,1878.0,Metabolic:S_Glycerophospholipid_Metabolism
 PP_1701,PP_RS08740,sugE,quaternary ammonium compound efflux SMR transporter SugE,CDS,318.0,
 PP_1702,PP_RS08745,rdgC,recombination-associated protein RdgC,CDS,921.0,
-PP_t15,PP_RS08750,,tRNA-Val,tRNA,76.0,Translation
-PP_t16,PP_RS08755,,tRNA-Asp,tRNA,77.0,Translation
-PP_t17,PP_RS08760,,tRNA-Val,tRNA,76.0,Translation
-PP_t18,PP_RS08765,,tRNA-Asp,tRNA,77.0,Translation
+PP_t15,PP_RS08750,,tRNA-Val,tRNA,76.0,tRNA Charging
+PP_t16,PP_RS08755,,tRNA-Asp,tRNA,77.0,tRNA Charging
+PP_t17,PP_RS08760,,tRNA-Val,tRNA,76.0,tRNA Charging
+PP_t18,PP_RS08765,,tRNA-Asp,tRNA,77.0,tRNA Charging
 PP_1703,PP_RS08770,,bifunctional nitrate reductase/sulfite reductase flavoprotein subunit alpha,CDS,4026.0,Metabolic:S_Nitrogen_Metabolism
 PP_1705,PP_RS08775,nirB,nitrite reductase large subunit NirB,CDS,2553.0,Metabolic:S_Nitrogen_Metabolism
 PP_1706,PP_RS08780,nirD,nitrite reductase small subunit NirD,CDS,363.0,Metabolic:S_Nitrogen_Metabolism
@@ -1846,7 +1846,7 @@ PP_1799,PP_RS09250,gmd,"GDP-mannose 4,6-dehydratase",CDS,1032.0,Metabolic:S_Algi
 PP_1800,PP_RS09255,,"GDP-mannose 4,6-dehydratase",CDS,897.0,Metabolic:S_Alginate_biosynthesis
 PP_1801,PP_RS09260,,glycosyltransferase family 1 protein,CDS,1143.0,Metabolic:S_Cell_Envelope_Biosynthesis__O_antigen_Biosynthesis
 PP_1802,PP_RS09265,,glycosyltransferase family 4 protein,CDS,1110.0,Metabolic:S_Cell_Envelope_Biosynthesis__O_antigen_Biosynthesis
-PP_1803,PP_RS09270,,SDR family oxidoreductase,CDS,972.0,Metabolic:S_Cell_Envelope_Biosynthesis
+PP_1803,PP_RS09270,,SDR family oxidoreductase,CDS,972.0,Metabolic:S_Cell_Envelope_Biosynthesis__O_antigen_Biosynthesis
 PP_1804,PP_RS09275,,glycosyltransferase family 4 protein,CDS,1005.0,Metabolic:S_Cell_Envelope_Biosynthesis__O_antigen_Biosynthesis
 PP_1805,PP_RS09280,,nucleoside-diphosphate sugar epimerase/dehydratase,CDS,2010.0,Metabolic:S_Cell_Envelope_Biosynthesis__O_antigen_Biosynthesis
 PP_1806,PP_RS09285,,SIS domain-containing protein,CDS,948.0,Metabolic:S_Cell_Envelope_Biosynthesis
@@ -1889,7 +1889,7 @@ PP_1842,PP_RS09465,,amidotransferase,CDS,735.0,Metabolic:S_Alternate_Carbon_and_
 PP_1843,PP_RS09470,,magnesium and cobalt transport protein CorA,CDS,972.0,Metabolic:S_Transport__Inner_Membrane
 PP_1844,PP_RS09475,,1-acyl-sn-glycerol-3-phosphate acyltransferase,CDS,714.0,Metabolic:S_Glycerophospholipid_Metabolism
 PP_1845,PP_RS09480,,crotonase/enoyl-CoA hydratase family protein,CDS,690.0,
-PP_t19,PP_RS09485,,tRNA-Ser,tRNA,90.0,Translation
+PP_t19,PP_RS09485,,tRNA-Ser,tRNA,90.0,tRNA Charging
 PP_1846,PP_RS09490,ltrA,group II intron reverse transcriptase/maturase,CDS,1422.0,
 PP_1847,PP_RS09495,,TonB-dependent siderophore receptor,CDS,2133.0,
 PP_1849,PP_RS09500,,hypothetical protein,CDS,381.0,
@@ -1921,11 +1921,11 @@ PP_1875,PP_RS09630,,ATP-binding protein,CDS,2358.0,
 PP_1876,PP_RS09635,,ATP-binding protein,CDS,888.0,
 PP_1877,PP_RS09640,,GAF domain-containing protein,CDS,483.0,Metabolic:Unassigned
 PP_1878,PP_RS09645,,hypothetical protein,CDS,768.0,
-PP_t20,PP_RS09650,,tRNA-Glu,tRNA,76.0,Translation
-PP_t21,PP_RS09655,,tRNA-Gly,tRNA,76.0,Translation
-PP_t22,PP_RS09660,,tRNA-Glu,tRNA,76.0,Translation
-PP_t23,PP_RS09665,,tRNA-Gly,tRNA,76.0,Translation
-PP_t24,PP_RS09670,,tRNA-Gly,tRNA,76.0,Translation
+PP_t20,PP_RS09650,,tRNA-Glu,tRNA,76.0,tRNA Charging
+PP_t21,PP_RS09655,,tRNA-Gly,tRNA,76.0,tRNA Charging
+PP_t22,PP_RS09660,,tRNA-Glu,tRNA,76.0,tRNA Charging
+PP_t23,PP_RS09665,,tRNA-Gly,tRNA,76.0,tRNA Charging
+PP_t24,PP_RS09670,,tRNA-Gly,tRNA,76.0,tRNA Charging
 PP_1879,PP_RS09675,,hypothetical protein,CDS,1491.0,
 PP_1880,PP_RS09680,,autotransporter outer membrane beta-barrel domain-containing protein,CDS,2193.0,
 PP_1881,PP_RS09685,,hypothetical protein,CDS,2010.0,
@@ -1954,7 +1954,7 @@ PP_1901,PP_RS09795,,Trm112 family protein,CDS,186.0,
 PP_1902,PP_RS09800,kdsB,3-deoxy-manno-octulosonate cytidylyltransferase,CDS,765.0,Metabolic:S_Cell_Envelope_Biosynthesis
 PP_1903,PP_RS09805,,low molecular weight protein-tyrosine-phosphatase,CDS,465.0,
 PP_1904,PP_RS09810,murB,UDP-N-acetylmuramate dehydrogenase,CDS,1020.0,Metabolic:S_Cell_Envelope_Biosynthesis
-PP_1905,PP_RS09815,rne,ribonuclease E,CDS,3276.0,Translation
+PP_1905,PP_RS09815,rne,ribonuclease E,CDS,3276.0,Transcription
 PP_1906,PP_RS09820,rluC,23S rRNA pseudouridine(955/2504/2580) synthase RluC,CDS,957.0,
 PP_1907,PP_RS09825,,HAD family hydrolase,CDS,675.0,
 PP_1908,PP_RS09830,,S49 family peptidase,CDS,990.0,
@@ -1963,8 +1963,8 @@ PP_1910,PP_RS09840,,YceD family protein,CDS,528.0,
 PP_1911,PP_RS09845,rpmF,50S ribosomal protein L32,CDS,183.0,
 PP_1912,PP_RS09850,plsX,phosphate acyltransferase PlsX,CDS,1011.0,Metabolic:S_Glycerophospholipid_Metabolism
 PP_1913,PP_RS09855,fabD,ACP S-malonyltransferase,CDS,939.0,Metabolic:S_Fatty_Acid__Biosynthesis
-PP_1914,PP_RS09860,fabG,3-oxoacyl-ACP reductase FabG,CDS,741.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Biotin_Biosynthesis
-PP_1915,PP_RS09865,acpP,acyl carrier protein,CDS,237.0,Metabolic:S_Cell_Envelope_Biosynthesis
+PP_1914,PP_RS09860,fabG,3-oxoacyl-ACP reductase FabG,CDS,741.0,Metabolic:S_PHAs_Metabolism
+PP_1915,PP_RS09865,acpP,acyl carrier protein,CDS,237.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis
 PP_1916,PP_RS09870,fabF,beta-ketoacyl-ACP synthase II,CDS,1245.0,Metabolic:S_Fatty_Acid__Biosynthesis
 PP_1917,PP_RS09875,pabC,aminodeoxychorismate lyase,CDS,816.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Folate_Biosynthesis
 PP_1918,PP_RS09880,mltG,endolytic transglycosylase MltG,CDS,1236.0,
@@ -2032,17 +2032,17 @@ PP_1969,PP_RS10195,,"GTP 3',8-cyclase MoaA",CDS,969.0,Metabolic:S_Cofactor_and_P
 PP_1970,PP_RS10200,,DUF4823 domain-containing protein,CDS,606.0,
 PP_1971,PP_RS10205,,DUF1285 domain-containing protein,CDS,561.0,
 PP_t63,PP_RS10210,,tRNA-Asn,tRNA,76.0,tRNA Charging
-PP_1972,PP_RS10215,,amino acid aminotransferase,CDS,1197.0,Metabolic:S_Aromatic_Compounds_Degradation__Homogentisate_pathway
+PP_1972,PP_RS10215,,amino acid aminotransferase,CDS,1197.0,Metabolic:S_Phenylalanine_Tyrosine_Tryptophan_Biosynthesis
 PP_1974,PP_RS10220,uvrB,excinuclease ABC subunit UvrB,CDS,2016.0,
 PP_1975,PP_RS10225,,MDR family MFS transporter,CDS,1491.0,
 PP_1976,PP_RS10230,,HlyD family secretion protein,CDS,1056.0,
 PP_1977,PP_RS10235,gltX,glutamate--tRNA ligase,CDS,1482.0,tRNA Charging
-PP_t25,PP_RS10240,,tRNA-Ala,tRNA,76.0,Translation
-PP_t26,PP_RS10245,,tRNA-Glu,tRNA,76.0,Translation
-PP_t27,PP_RS10250,,tRNA-Ala,tRNA,76.0,Translation
-PP_t28,PP_RS10255,,tRNA-Glu,tRNA,76.0,Translation
-PP_t29,PP_RS10260,,tRNA-Ala,tRNA,76.0,Translation
-PP_t30,PP_RS10265,,tRNA-Glu,tRNA,76.0,Translation
+PP_t25,PP_RS10240,,tRNA-Ala,tRNA,76.0,tRNA Charging
+PP_t26,PP_RS10245,,tRNA-Glu,tRNA,76.0,tRNA Charging
+PP_t27,PP_RS10250,,tRNA-Ala,tRNA,76.0,tRNA Charging
+PP_t28,PP_RS10255,,tRNA-Glu,tRNA,76.0,tRNA Charging
+PP_t29,PP_RS10260,,tRNA-Ala,tRNA,76.0,tRNA Charging
+PP_t30,PP_RS10265,,tRNA-Glu,tRNA,76.0,tRNA Charging
 PP_1978,PP_RS10270,,TetR/AcrR family transcriptional regulator,CDS,540.0,
 PP_1979,PP_RS10275,,alpha/beta fold hydrolase,CDS,882.0,
 PP_1980,PP_RS10280,,thioesterase family protein,CDS,435.0,
@@ -2067,10 +2067,10 @@ PP_1999,PP_RS10370,,CvpA family protein,CDS,558.0,
 PP_2000,PP_RS10375,purF,amidophosphoribosyltransferase,CDS,1506.0,Metabolic:S_Purine_Metabolism
 PP_2001,PP_RS10380,,O-succinylhomoserine sulfhydrylase,CDS,1212.0,Metabolic:S_Methionine_Metabolism
 PP_2002,PP_RS10385,,SDR family oxidoreductase,CDS,774.0,
-PP_t31,PP_RS10390,,tRNA-Val,tRNA,76.0,Translation
-PP_t32,PP_RS10395,,tRNA-Asp,tRNA,77.0,Translation
-PP_t33,PP_RS10400,,tRNA-Asp,tRNA,77.0,Translation
-PP_t34,PP_RS10405,,tRNA-Asp,tRNA,77.0,Translation
+PP_t31,PP_RS10390,,tRNA-Val,tRNA,76.0,tRNA Charging
+PP_t32,PP_RS10395,,tRNA-Asp,tRNA,77.0,tRNA Charging
+PP_t33,PP_RS10400,,tRNA-Asp,tRNA,77.0,tRNA Charging
+PP_t34,PP_RS10405,,tRNA-Asp,tRNA,77.0,tRNA Charging
 PP_2003,PP_RS10410,,DUF2242 domain-containing protein,CDS,825.0,
 PP_2004,PP_RS10415,,AraC family transcriptional regulator,CDS,1041.0,
 PP_2005,PP_RS10420,,nitrilase-related carbon-nitrogen hydrolase,CDS,1119.0,
@@ -2190,7 +2190,7 @@ PP_2117,PP_RS10990,pdxB,4-phosphoerythronate dehydrogenase PdxB,CDS,1143.0,Metab
 PP_2118,PP_RS28300,,PA1571 family protein,CDS,174.0,
 PP_2119,PP_RS10995,,ABC transporter transmembrane domain-containing protein,CDS,1764.0,
 PP_2120,PP_RS11000,,methyl-accepting chemotaxis protein,CDS,1617.0,
-PP_t62,PP_RS11005,,tRNA-Pro,tRNA,77.0,Translation
+PP_t62,PP_RS11005,,tRNA-Pro,tRNA,77.0,tRNA Charging
 PP_2121,PP_RS11010,,YgdI/YgdR family lipoprotein,CDS,222.0,
 PP_2122,PP_RS11015,moaB,molybdenum cofactor biosynthesis protein B,CDS,540.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Molybdopterin_Biosynthesis
 PP_2123,PP_RS11020,glp,gephyrin-like molybdotransferase Glp,CDS,1227.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Molybdopterin_Biosynthesis
@@ -2310,8 +2310,8 @@ PP_2238,PP_RS11595,,aminopeptidase P family protein,CDS,1809.0,
 PP_5504,PP_RS11600,,hypothetical protein,CDS,282.0,
 PP_2239,PP_RS11605,rhtA,threonine/homoserine exporter RhtA,CDS,888.0,Metabolic:S_Transport__Inner_Membrane
 PP_16SF,PP_RS11610,,16S ribosomal RNA,rRNA,1537.0,Translation
-PP_t35,PP_RS11615,,tRNA-Ile,tRNA,77.0,Translation
-PP_t36,PP_RS11620,,tRNA-Ala,tRNA,76.0,Translation
+PP_t35,PP_RS11615,,tRNA-Ile,tRNA,77.0,tRNA Charging
+PP_t36,PP_RS11620,,tRNA-Ala,tRNA,76.0,tRNA Charging
 PP_23SF,PP_RS11625,,23S ribosomal RNA,rRNA,2893.0,Translation
 PP_5SF,PP_RS11630,rrf,5S ribosomal RNA,rRNA,116.0,Translation
 PP_2240,PP_RS11635,,ABC transporter ATP-binding protein/permease,CDS,1809.0,
@@ -2341,9 +2341,9 @@ PP_2263,PP_RS11750,,carbohydrate ABC transporter permease,CDS,801.0,
 PP_5505,PP_RS11755,,DUF2160 domain-containing protein,CDS,273.0,
 PP_2264,PP_RS11760,,ABC transporter substrate-binding protein,CDS,1740.0,
 PP_2265,PP_RS11765,folD,bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD,CDS,855.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__One_Carbon_pool_by_folate
-PP_t37,PP_RS11770,,tRNA-Arg,tRNA,77.0,Translation
-PP_t38,PP_RS11775,,tRNA-His,tRNA,76.0,Translation
-PP_t39,PP_RS11780,,tRNA-Leu,tRNA,85.0,Translation
+PP_t37,PP_RS11770,,tRNA-Arg,tRNA,77.0,tRNA Charging
+PP_t38,PP_RS11775,,tRNA-His,tRNA,76.0,tRNA Charging
+PP_t39,PP_RS11780,,tRNA-Leu,tRNA,85.0,tRNA Charging
 PP_2266,PP_RS11785,,DNA-directed RNA polymerase,CDS,2547.0,
 PP_5507,PP_RS11790,,hypothetical protein,CDS,177.0,
 PP_2267,PP_RS11795,,DUF2815 family protein,CDS,681.0,
@@ -2384,7 +2384,7 @@ PP_5517,PP_RS11980,,hypothetical protein,CDS,333.0,
 PP_2295,PP_RS11985,,antirestriction protein ArdA,CDS,585.0,
 PP_2296,PP_RS11990,,hypothetical protein,CDS,357.0,
 PP_2297,PP_RS11995,,site-specific integrase,CDS,1083.0,
-PP_t40,PP_RS12000,,tRNA-His,tRNA,76.0,Translation
+PP_t40,PP_RS12000,,tRNA-His,tRNA,76.0,tRNA Charging
 PP_2298,PP_RS12005,,DUF6388 family protein,CDS,300.0,
 PP_2299,PP_RS12010,tig,trigger factor,CDS,1314.0,Translation
 PP_2300,PP_RS12015,clpP,ATP-dependent Clp endopeptidase proteolytic subunit ClpP,CDS,642.0,
@@ -2436,10 +2436,10 @@ PP_2347,PP_RS12240,,response regulator transcription factor,CDS,669.0,
 PP_2348,PP_RS12245,,sensor histidine kinase,CDS,1320.0,
 PP_2349,PP_RS12250,,HPP family protein,CDS,1155.0,
 PP_2350,PP_RS12255,,LysR family transcriptional regulator,CDS,867.0,
-PP_2351,PP_RS12260,,propionyl-CoA synthetase,CDS,1890.0,Metabolic: No subsystem
+PP_2351,PP_RS12260,,propionyl-CoA synthetase,CDS,1890.0,Metabolic:S_Alternate_Carbon__Propanoate_Metabolism
 PP_2352,PP_RS12265,zapE,cell division protein ZapE,CDS,1071.0,
 PP_5520,PP_RS12270,,hypothetical protein,CDS,243.0,
-PP_t41,PP_RS12280,,tRNA-Gln,tRNA,75.0,Translation
+PP_t41,PP_RS12280,,tRNA-Gln,tRNA,75.0,tRNA Charging
 PP_2354,PP_RS12285,,hybrid sensor histidine kinase/response regulator,CDS,2388.0,
 PP_2355,PP_RS12290,,response regulator,CDS,462.0,
 PP_2356,PP_RS12295,,ATP-binding protein,CDS,2247.0,
@@ -2501,8 +2501,8 @@ PP_2412,PP_RS12570,,ParA family protein,CDS,777.0,
 PP_2413,PP_RS12575,,sensor domain-containing diguanylate cyclase,CDS,1572.0,
 PP_2414,PP_RS12580,,hypothetical protein,CDS,480.0,
 PP_2415,PP_RS12585,,GNAT family N-acetyltransferase,CDS,498.0,
-PP_2416,PP_RS12590,,ABC transporter ATP-binding protein,CDS,789.0,Metabolic:S_Transport__ABC_system
-PP_2417,PP_RS12595,,iron ABC transporter permease,CDS,1017.0,Metabolic:S_Transport__ABC_system
+PP_2416,PP_RS12590,,ABC transporter ATP-binding protein,CDS,789.0,Metabolic:S_Iron_uptake_and_metabolism
+PP_2417,PP_RS12595,,iron ABC transporter permease,CDS,1017.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_2418,PP_RS12600,,ABC transporter substrate-binding protein,CDS,1011.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_2419,PP_RS12605,,DUF1624 domain-containing protein,CDS,1161.0,
 PP_2420,PP_RS12610,,TonB-dependent siderophore receptor,CDS,2127.0,
@@ -2520,7 +2520,7 @@ PP_2431,PP_RS12665,,LysR family transcriptional regulator,CDS,924.0,
 PP_2432,PP_RS12670,,oxygen-insensitive NAD(P)H-dependent nitroreductase NfsB,CDS,654.0,Metabolic:S_Xenobiotic_tolerance
 PP_2433,PP_RS12675,,antitoxin Xre/MbcA/ParS toxin-binding domain-containing protein,CDS,450.0,
 PP_2434,PP_RS12680,,RES family NAD+ phosphorylase,CDS,438.0,
-PP_2435,PP_RS12685,,cysteine desulfurase family protein,CDS,1155.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Molybdopterin_Biosynthesis
+PP_2435,PP_RS12685,,cysteine desulfurase family protein,CDS,1155.0,tRNA Charging
 PP_2436,PP_RS12690,,LysR family transcriptional regulator,CDS,927.0,
 PP_2437,PP_RS12695,,acyl-CoA dehydrogenase,CDS,1230.0,Metabolic:S_Fatty_Acid_Metabolism
 PP_5522,PP_RS12700,,PAAR domain-containing protein,CDS,249.0,
@@ -2537,8 +2537,8 @@ PP_2445,PP_RS12750,,TerC family protein,CDS,753.0,
 PP_2446,PP_RS28305,,hypothetical protein,CDS,174.0,
 PP_2447,PP_RS12755,,peptidase C39 family protein,CDS,735.0,
 PP_2448,PP_RS12760,,FAD-binding oxidoreductase,CDS,1284.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
-PP_t42,PP_RS12765,,tRNA-Val,tRNA,77.0,Translation
-PP_t43,PP_RS12770,,tRNA-Val,tRNA,77.0,Translation
+PP_t42,PP_RS12765,,tRNA-Val,tRNA,77.0,tRNA Charging
+PP_t43,PP_RS12770,,tRNA-Val,tRNA,77.0,tRNA Charging
 PP_2449,PP_RS12775,,SPOR domain-containing protein,CDS,570.0,
 PP_2450,PP_RS12780,,hypothetical protein,CDS,426.0,
 PP_2451,PP_RS12785,,endonuclease,CDS,693.0,
@@ -2550,7 +2550,7 @@ PP_2456,PP_RS12810,,ABC transporter permease,CDS,996.0,Metabolic:S_Transport__AB
 PP_2457,PP_RS12815,,LacI family DNA-binding transcriptional regulator,CDS,1023.0,
 PP_2458,PP_RS12820,rbsK,ribokinase,CDS,909.0,Metabolic:S_Alternate_Carbon__Ribose_Metabolism
 PP_2459,PP_RS12825,rbsD,D-ribose pyranase,CDS,399.0,Metabolic:S_Transport__ABC_system
-PP_2460,PP_RS12830,,nucleoside hydrolase,CDS,1002.0,Metabolic:S_Pyrimidine_Metabolism
+PP_2460,PP_RS12830,,nucleoside hydrolase,CDS,1002.0,Metabolic:S_Purine_Metabolism
 PP_2461,PP_RS12835,,hypothetical protein,CDS,213.0,
 PP_2462,PP_RS12840,,I78 family peptidase inhibitor,CDS,321.0,
 PP_2463,PP_RS12845,,cold-shock protein,CDS,213.0,
@@ -2559,11 +2559,11 @@ PP_2465,PP_RS12855,thrS,threonine--tRNA ligase,CDS,1923.0,tRNA Charging
 PP_2466,PP_RS12860,infC,translation initiation factor IF-3,CDS,552.0,
 PP_2467,PP_RS12865,rpmI,50S ribosomal protein L35,CDS,195.0,
 PP_2468,PP_RS12870,rplT,50S ribosomal protein L20,CDS,357.0,Translation
-PP_2469,PP_RS12875,pheS,phenylalanine--tRNA ligase subunit alpha,CDS,1017.0,tRNA Charging
-PP_2470,PP_RS12880,pheT,phenylalanine--tRNA ligase subunit beta,CDS,2382.0,tRNA Charging
+PP_2469,PP_RS12875,pheS,phenylalanine--tRNA ligase subunit alpha,CDS,1017.0,Metabolic:S_tRNA_Charging
+PP_2470,PP_RS12880,pheT,phenylalanine--tRNA ligase subunit beta,CDS,2382.0,Metabolic:S_tRNA_Charging
 PP_2471,PP_RS12885,ihfA,integration host factor subunit alpha,CDS,303.0,
 PP_2472,PP_RS12890,,MerR family transcriptional regulator,CDS,357.0,
-PP_t44,PP_RS12895,,tRNA-Pro,tRNA,77.0,Translation
+PP_t44,PP_RS12895,,tRNA-Pro,tRNA,77.0,tRNA Charging
 PP_5526,PP_RS12900,,hypothetical protein,CDS,843.0,
 PP_5527,PP_RS12905,,AlpA family transcriptional regulator,CDS,255.0,
 PP_2473,PP_RS12910,,inovirus-type Gp2 protein,CDS,969.0,
@@ -2782,7 +2782,7 @@ PP_2690,PP_RS14010,,DUF3726 domain-containing protein,CDS,696.0,
 PP_2691,PP_RS14015,,hypothetical protein,CDS,1695.0,
 PP_2692,PP_RS14020,,BCCT family transporter,CDS,1551.0,
 PP_2693,PP_RS14025,,dipeptidase,CDS,987.0,
-PP_2694,PP_RS14030,,aldehyde dehydrogenase family protein,CDS,1443.0,Metabolic:S_Glycerophospholipid_Metabolism
+PP_2694,PP_RS14030,,aldehyde dehydrogenase family protein,CDS,1443.0,Metabolic:S_Pyruvate_Metabolism
 PP_2695,PP_RS14035,,LysR family transcriptional regulator,CDS,888.0,
 PP_2696,PP_RS14040,,LysR family transcriptional regulator,CDS,930.0,
 PP_2697,PP_RS14045,,flavin reductase family protein,CDS,510.0,
@@ -3154,7 +3154,7 @@ PP_5558,PP_RS15880,,XRE family transcriptional regulator,CDS,360.0,
 PP_3068,PP_RS15885,,LysE family transporter,CDS,279.0,
 PP_3069,PP_RS15890,,autotransporter outer membrane beta-barrel domain-containing protein,CDS,2478.0,
 PP_3070,PP_RS15895,,peptidylprolyl isomerase,CDS,276.0,
-PP_3071,PP_RS15900,,acetoacetate--CoA ligase,CDS,1953.0,Metabolic:S_Butanoate_Metabolism
+PP_3071,PP_RS15900,,acetoacetate--CoA ligase,CDS,1953.0,Metabolic:S_Gluconeogenesis
 PP_3072,PP_RS15905,eco,serine protease inhibitor ecotin,CDS,480.0,
 PP_3073,PP_RS15910,hbdH,3-hydroxybutyrate dehydrogenase,CDS,771.0,Metabolic:S_Butanoate_Metabolism
 PP_3074,PP_RS15915,,GntP family permease,CDS,1392.0,Metabolic:S_Transport__Inner_Membrane
@@ -3249,7 +3249,7 @@ PP_3147,PP_RS16410,,polyamine ABC transporter substrate-binding protein,CDS,1089
 PP_3148,PP_RS16415,,glutamine synthetase family protein,CDS,1359.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
 PP_3149,PP_RS16420,,helix-turn-helix domain-containing protein,CDS,900.0,
 PP_3150,PP_RS16425,,AAA family ATPase,CDS,1911.0,
-PP_3151,PP_RS16430,,aldehyde dehydrogenase family protein,CDS,1386.0,Metabolic: No subsystem
+PP_3151,PP_RS16430,,aldehyde dehydrogenase family protein,CDS,1386.0,Metabolic:S_Glutamate_Metabolism
 PP_3152,PP_RS16435,,LysR family transcriptional regulator,CDS,867.0,
 PP_3153,PP_RS16440,,hypothetical protein,CDS,444.0,
 PP_3154,PP_RS16445,,acyloxyacyl hydrolase,CDS,522.0,
@@ -3297,7 +3297,7 @@ PP_3194,PP_RS16650,,amidohydrolase family protein,CDS,1344.0,
 PP_3195,PP_RS16655,,S9 family peptidase,CDS,1158.0,
 PP_3196,PP_RS16660,,LysR family transcriptional regulator,CDS,939.0,
 PP_3197,PP_RS16665,,VOC family protein,CDS,942.0,
-PP_3198,PP_RS16670,,Rieske 2Fe-2S domain-containing protein,CDS,348.0,
+PP_3198,PP_RS16670,,Rieske 2Fe-2S domain-containing protein,CDS,348.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_3199,PP_RS16675,,FAD-dependent oxidoreductase,CDS,1125.0,
 PP_3200,PP_RS16680,,DUF1302 domain-containing protein,CDS,1671.0,
 PP_5590,PP_RS16685,,DUF1329 domain-containing protein,CDS,1368.0,
@@ -3828,8 +3828,8 @@ PP_3717,PP_RS19355,,helix-turn-helix transcriptional regulator,CDS,843.0,
 PP_3718,PP_RS19360,,aminotransferase,CDS,1413.0,
 PP_3719,PP_RS19365,,polyamine ABC transporter substrate-binding protein,CDS,1104.0,
 PP_3720,PP_RS19370,,NAD(P)H-dependent oxidoreductase,CDS,702.0,Metabolic:S_Oxidative_Phosphorylation
-PP_3721,PP_RS19375,,pyridoxal phosphate-dependent aminotransferase,CDS,1191.0,Metabolic:S_Arginine_and_Proline_Metabolism
-PP_3722,PP_RS19380,alr,alanine racemase,CDS,1230.0,Metabolic:S_Arginine_and_Proline_Metabolism
+PP_3721,PP_RS19375,,pyridoxal phosphate-dependent aminotransferase,CDS,1191.0,Metabolic:S_Alanine_and_Aspartate_Metabolism
+PP_3722,PP_RS19380,alr,alanine racemase,CDS,1230.0,Metabolic:S_Alanine_and_Aspartate_Metabolism
 PP_3723,PP_RS19385,,5-guanidino-2-oxopentanoate decarboxylase,CDS,1608.0,Metabolic:S_Arginine_and_Proline_Metabolism
 PP_3724,PP_RS19390,,acetate--CoA ligase family protein,CDS,2118.0,
 PP_3725,PP_RS19395,,acyl-CoA dehydrogenase family protein,CDS,1161.0,
@@ -3852,7 +3852,7 @@ PP_3741,PP_RS19475,mrdA,penicillin-binding protein 2,CDS,1896.0,Metabolic:S_Cell
 PP_3742,PP_RS19480,,glutathione S-transferase family protein,CDS,627.0,
 PP_3743,PP_RS19485,,DUF2388 domain-containing protein,CDS,318.0,
 PP_3744,PP_RS19490,glcC,transcriptional regulator GlcC,CDS,765.0,
-PP_3745,PP_RS19495,glcD,glycolate oxidase subunit GlcD,CDS,1500.0,Metabolic:S_Cell_Envelope_Biosynthesis
+PP_3745,PP_RS19495,glcD,glycolate oxidase subunit GlcD,CDS,1500.0,Metabolic:S_Pyruvate_Metabolism
 PP_3746,PP_RS19500,glcE,glycolate oxidase subunit GlcE,CDS,1053.0,Metabolic:S_Pyruvate_Metabolism
 PP_3747,PP_RS19505,glcF,glycolate oxidase subunit GlcF,CDS,1236.0,Metabolic:S_Pyruvate_Metabolism
 PP_3748,PP_RS19510,,heme-binding protein,CDS,399.0,
@@ -3946,7 +3946,7 @@ PP_3833,PP_RS19940,,response regulator,CDS,354.0,
 PP_3834,PP_RS19945,,ATPase domain-containing protein,CDS,1446.0,
 PP_3835,PP_RS19950,,nitrogen regulation protein NR(II),CDS,1161.0,
 PP_3836,PP_RS19955,,hypothetical protein,CDS,276.0,
-PP_t45,PP_RS19960,,tRNA-Leu,tRNA,85.0,Translation
+PP_t45,PP_RS19960,,tRNA-Leu,tRNA,85.0,tRNA Charging
 PP_3837,PP_RS19965,,DoxX family protein,CDS,414.0,
 PP_5634,PP_RS19970,,hypothetical protein,CDS,195.0,
 PP_3839,PP_RS19975,adhP,alcohol dehydrogenase AdhP,CDS,1011.0,Metabolic:Unassigned
@@ -4034,7 +4034,7 @@ PP_5647,PP_RS28655,,hypothetical protein,CDS,273.0,
 PP_3917,PP_RS20390,,hypothetical protein,CDS,318.0,
 PP_3919,PP_RS20395,,DUF4224 domain-containing protein,CDS,246.0,
 PP_3920,PP_RS20400,,site-specific integrase,CDS,1050.0,
-PP_t61,PP_RS20405,,tRNA-Cys,tRNA,74.0,Translation
+PP_t61,PP_RS20405,,tRNA-Cys,tRNA,74.0,tRNA Charging
 PP_3922,PP_RS20410,sohB,protease SohB,CDS,1020.0,
 PP_3923,PP_RS20415,,histidine phosphatase family protein,CDS,711.0,
 PP_3924,PP_RS20420,,SCP2 sterol-binding domain-containing protein,CDS,318.0,
@@ -4101,7 +4101,7 @@ PP_3987,PP_RS20735,,tyrosine-type recombinase/integrase,CDS,960.0,
 PP_5651,PP_RS20740,,hypothetical protein,CDS,1257.0,
 PP_3988,PP_RS20745,,ATP-binding protein,CDS,2049.0,
 PP_3989,PP_RS20750,,DNA cytosine methyltransferase,CDS,1047.0,Metabolic:Unassigned
-PP_t60,PP_RS20755,,tRNA-Ser,tRNA,88.0,Translation
+PP_t60,PP_RS20755,,tRNA-Ser,tRNA,88.0,tRNA Charging
 PP_3990,PP_RS20760,,Bax inhibitor-1/YccA family protein,CDS,672.0,
 PP_3992,PP_RS20765,,nucleobase:cation symporter-2 family protein,CDS,1380.0,Metabolic:S_Transport__Inner_Membrane
 PP_3993,PP_RS20770,tusD,sulfurtransferase complex subunit TusD,CDS,393.0,
@@ -4201,7 +4201,7 @@ PP_4091,PP_RS21250,,IS66-like element ISPpu15 family transposase,CDS,1533.0,
 PP_4092,PP_RS21255,tnpB,IS66 family insertion sequence element accessory protein TnpB,CDS,360.0,
 PP_4094,PP_RS21280,,SMI1/KNR4 family protein,CDS,486.0,
 PP_4096,PP_RS21290,,DsbA family protein,CDS,678.0,
-PP_t59,PP_RS21295,,tRNA-Gly,tRNA,76.0,Translation
+PP_t59,PP_RS21295,,tRNA-Gly,tRNA,76.0,tRNA Charging
 PP_4097,PP_RS21300,pgsA,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,CDS,561.0,Metabolic:S_Glycerophospholipid_Metabolism
 PP_4098,PP_RS21305,uvrC,excinuclease ABC subunit UvrC,CDS,1824.0,
 PP_4099,PP_RS21310,uvrY,UvrY/SirA/GacA family response regulator transcription factor,CDS,639.0,
@@ -4278,7 +4278,7 @@ PP_4171,PP_RS21660,,TonB-dependent siderophore receptor,CDS,2115.0,
 PP_4172,PP_RS21665,,ABC transporter substrate-binding protein,CDS,891.0,
 PP_4173,PP_RS21670,,ATP-binding protein,CDS,1932.0,
 PP_4174,PP_RS21675,fabA,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabA,CDS,516.0,Metabolic:S_Fatty_Acid__Biosynthesis
-PP_4175,PP_RS21680,fabB,beta-ketoacyl-ACP synthase I,CDS,1221.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Biotin_Biosynthesis
+PP_4175,PP_RS21680,fabB,beta-ketoacyl-ACP synthase I,CDS,1221.0,Metabolic:S_Fatty_Acid__Biosynthesis
 PP_4176,PP_RS21685,,amidohydrolase family protein,CDS,1008.0,
 PP_4177,PP_RS21690,,pirin family protein,CDS,864.0,
 PP_4178,PP_RS21695,,dienelactone hydrolase family protein,CDS,726.0,
@@ -4290,7 +4290,7 @@ PP_4183,PP_RS21720,,DUF599 domain-containing protein,CDS,750.0,
 PP_4184,PP_RS21725,brnQ,branched-chain amino acid transport system II carrier protein,CDS,1314.0,Metabolic:S_Transport__Inner_Membrane
 PP_4185,PP_RS21730,sucD,succinate--CoA ligase subunit alpha,CDS,885.0,Metabolic:S_TCA_Cycle
 PP_4186,PP_RS21735,sucC,ADP-forming succinate--CoA ligase subunit beta,CDS,1167.0,Metabolic:S_TCA_Cycle
-PP_4187,PP_RS21740,lpdA,dihydrolipoyl dehydrogenase,CDS,1437.0,Metabolic:S_Glycine__Serine_and_threonine_metabolism
+PP_4187,PP_RS21740,lpdA,dihydrolipoyl dehydrogenase,CDS,1437.0,Metabolic:S_TCA_Cycle
 PP_4188,PP_RS21745,odhB,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase,CDS,1224.0,Metabolic:S_TCA_Cycle
 PP_4189,PP_RS21750,,2-oxoglutarate dehydrogenase E1 component,CDS,2832.0,Metabolic:S_TCA_Cycle
 PP_4190,PP_RS21755,,succinate dehydrogenase iron-sulfur subunit,CDS,705.0,Metabolic:S_TCA_Cycle
@@ -4349,7 +4349,7 @@ PP_4240,PP_RS22020,,YcaO-like family protein,CDS,1203.0,
 PP_5668,PP_RS22025,,hypothetical protein,CDS,744.0,
 PP_5669,PP_RS22030,,ATP-binding cassette domain-containing protein,CDS,702.0,
 PP_4242,PP_RS22035,,RHS repeat-associated core domain-containing protein,CDS,822.0,
-PP_4243,PP_RS22040,,non-ribosomal peptide synthetase,CDS,12954.0,Metabolic:S_Fatty_Acid__Biosynthesis
+PP_4243,PP_RS22040,,non-ribosomal peptide synthetase,CDS,12954.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_4244,PP_RS22045,,RNA polymerase factor sigma-70,CDS,531.0,
 PP_4245,PP_RS22050,,GNAT family N-acetyltransferase,CDS,1014.0,
 PP_4246,PP_RS22055,,ABC transporter substrate-binding protein,CDS,801.0,
@@ -4435,7 +4435,7 @@ PP_4323,PP_RS22450,ccmE,cytochrome c maturation protein CcmE,CDS,456.0,
 PP_4324,PP_RS22455,ccmD,heme exporter protein CcmD,CDS,177.0,
 PP_4325,PP_RS22460,,heme ABC transporter permease,CDS,768.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_4326,PP_RS22465,ccmB,heme exporter protein CcmB,CDS,669.0,Metabolic:S_Iron_uptake_and_metabolism
-PP_4327,PP_RS22470,ccmA,cytochrome c biogenesis heme-transporting ATPase CcmA,CDS,633.0,Metabolic:S_Transport__ABC_system
+PP_4327,PP_RS22470,ccmA,cytochrome c biogenesis heme-transporting ATPase CcmA,CDS,633.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_4328,PP_RS22475,,flagellar hook-length control protein FliK,CDS,1557.0,
 PP_4329,PP_RS22480,,EscU/YscU/HrcU family type III secretion system export apparatus switch protein,CDS,339.0,
 PP_4330,PP_RS22485,,dermonecrotic toxin domain-containing protein,CDS,2712.0,
@@ -4487,7 +4487,7 @@ PP_4375,PP_RS22710,fliS,flagellar export chaperone FliS,CDS,396.0,
 PP_4376,PP_RS22715,fliD,flagellar filament capping protein FliD,CDS,1359.0,
 PP_4377,PP_RS22720,,flagellar protein FlaG,CDS,345.0,
 PP_4378,PP_RS22725,,flagellin hook IN motif-containing protein,CDS,2064.0,
-PP_4379,PP_RS22730,,ketoacyl-ACP synthase III,CDS,930.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Biotin_Biosynthesis
+PP_4379,PP_RS22730,,ketoacyl-ACP synthase III,CDS,930.0,Metabolic:S_Fatty_Acid__Biosynthesis
 PP_4380,PP_RS22735,,flagellar hook-associated protein 3,CDS,1566.0,
 PP_4381,PP_RS22740,flgK,flagellar hook-associated protein FlgK,CDS,2043.0,
 PP_4382,PP_RS22745,flgJ,flagellar assembly peptidoglycan hydrolase FlgJ,CDS,1155.0,
@@ -4584,16 +4584,16 @@ PP_5690,PP_RS23220,,hypothetical protein,CDS,384.0,
 PP_5691,PP_RS23225,,hypothetical protein,CDS,447.0,
 PP_5692,PP_RS23230,,DUF6957 family protein,CDS,393.0,
 PP_4468,PP_RS23235,,LuxR C-terminal-related transcriptional regulator,CDS,492.0,
-PP_t58,PP_RS23240,,tRNA-Arg,tRNA,72.0,Translation
+PP_t58,PP_RS23240,,tRNA-Arg,tRNA,72.0,tRNA Charging
 PP_4469,PP_RS23245,phnN,"phosphonate metabolism protein/1,5-bisphosphokinase (PRPP-forming) PhnN",CDS,594.0,Metabolic:S_Alternate_Carbon__Ribose_Metabolism
 PP_5693,PP_RS23250,,hypothetical protein,CDS,270.0,
 PP_4470,PP_RS23255,,Arc family DNA-binding protein,CDS,327.0,
 PP_4471,PP_RS23260,mgtE,magnesium transporter,CDS,1443.0,Metabolic:S_Transport__Inner_Membrane
-PP_t56,PP_RS23265,,tRNA-Arg,tRNA,77.0,Translation
-PP_t55,PP_RS23270,,tRNA-Arg,tRNA,77.0,Translation
-PP_t54,PP_RS23275,,tRNA-Arg,tRNA,77.0,Translation
-PP_t53,PP_RS23280,,tRNA-Arg,tRNA,77.0,Translation
-PP_t52,PP_RS23285,,tRNA-Ser,tRNA,91.0,Translation
+PP_t56,PP_RS23265,,tRNA-Arg,tRNA,77.0,tRNA Charging
+PP_t55,PP_RS23270,,tRNA-Arg,tRNA,77.0,tRNA Charging
+PP_t54,PP_RS23275,,tRNA-Arg,tRNA,77.0,tRNA Charging
+PP_t53,PP_RS23280,,tRNA-Arg,tRNA,77.0,tRNA Charging
+PP_t52,PP_RS23285,,tRNA-Ser,tRNA,91.0,tRNA Charging
 PP_4472,PP_RS23290,csrA,carbon storage regulator CsrA,CDS,189.0,
 PP_4473,PP_RS23295,,aspartate kinase,CDS,1236.0,Metabolic:S_Lysine_Metabolism
 PP_4474,PP_RS23300,alaS,alanine--tRNA ligase,CDS,2625.0,tRNA Charging
@@ -4603,7 +4603,7 @@ PP_4477,PP_RS23315,astB,N-succinylarginine dihydrolase,CDS,1350.0,Metabolic:S_Ar
 PP_4478,PP_RS23320,astD,succinylglutamate-semialdehyde dehydrogenase,CDS,1464.0,Metabolic:S_Arginine_and_Proline_Metabolism
 PP_4479,PP_RS23325,astA,arginine N-succinyltransferase,CDS,1029.0,Metabolic:S_Arginine_and_Proline_Metabolism
 PP_4480,PP_RS23330,aruF,arginine/ornithine succinyltransferase subunit alpha,CDS,1020.0,Metabolic:S_Arginine_and_Proline_Metabolism
-PP_4481,PP_RS23335,,aspartate aminotransferase family protein,CDS,1221.0,Metabolic:S_Urea_cycleamino_group_metabolism
+PP_4481,PP_RS23335,,aspartate aminotransferase family protein,CDS,1221.0,Metabolic:S_Arginine_and_Proline_Metabolism
 PP_4482,PP_RS23340,argR,transcriptional regulator ArgR,CDS,981.0,
 PP_4483,PP_RS23345,,ABC transporter ATP-binding protein,CDS,765.0,Metabolic:S_Transport__ABC_system
 PP_4484,PP_RS23350,,ABC transporter permease,CDS,699.0,Metabolic:S_Transport__ABC_system
@@ -4672,12 +4672,12 @@ PP_4541,PP_RS23655,,peptidylprolyl isomerase A,CDS,558.0,
 PP_4542,PP_RS23660,,ABC transporter ATP-binding protein,CDS,1833.0,
 PP_4543,PP_RS23665,,GNAT family N-acetyltransferase,CDS,1128.0,
 PP_4544,PP_RS23670,,putative porin,CDS,1245.0,
-PP_4545,PP_RS23675,,beta-ketoacyl-ACP synthase III,CDS,1122.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Biotin_Biosynthesis
+PP_4545,PP_RS23675,,beta-ketoacyl-ACP synthase III,CDS,1122.0,Metabolic:S_Fatty_Acid__Biosynthesis
 PP_4546,PP_RS23680,hrpA,ATP-dependent RNA helicase HrpA,CDS,3906.0,
 PP_4547,PP_RS23685,,glutamine synthetase family protein,CDS,1365.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
 PP_4548,PP_RS23690,,FAD-binding oxidoreductase,CDS,1308.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
-PP_4549,PP_RS23695,fadD1,long-chain-fatty-acid--CoA ligase FadD1,CDS,1698.0,Metabolic:S_Fatty_Acid_Metabolism
-PP_4550,PP_RS23700,fadD2,long-chain-fatty-acid--CoA ligase FadD2,CDS,1689.0,Metabolic:S_Fatty_Acid_Metabolism
+PP_4549,PP_RS23695,fadD1,long-chain-fatty-acid--CoA ligase FadD1,CDS,1698.0,Metabolic:S_PHAs_Metabolism
+PP_4550,PP_RS23700,fadD2,long-chain-fatty-acid--CoA ligase FadD2,CDS,1689.0,Metabolic:S_PHAs_Metabolism
 PP_4551,PP_RS23705,,alpha/beta hydrolase,CDS,945.0,
 PP_4552,PP_RS23710,,MaoC family dehydratase,CDS,471.0,Metabolic:S_PHAs_Metabolism
 PP_4553,PP_RS23715,,RNA polymerase sigma factor,CDS,1239.0,
@@ -4720,7 +4720,7 @@ PP_4590,PP_RS23905,,YcgL domain-containing protein,CDS,294.0,
 PP_4591,PP_RS23910,rnd,ribonuclease D,CDS,1134.0,Transcription
 PP_4592,PP_RS23915,,phosphoethanolamine transferase,CDS,1638.0,
 PP_4593,PP_RS23920,,YdcH family protein,CDS,237.0,
-PP_4594,PP_RS23925,,PLP-dependent aspartate aminotransferase family protein,CDS,1182.0,Metabolic:S_Methionine_Metabolism
+PP_4594,PP_RS23925,,PLP-dependent aspartate aminotransferase family protein,CDS,1182.0,Metabolic:S_Cysteine_Metabolism
 PP_4595,PP_RS23930,,Lrp/AsnC family transcriptional regulator,CDS,462.0,
 PP_4596,PP_RS23935,,FdhF/YdeP family oxidoreductase,CDS,2331.0,
 PP_4597,PP_RS23940,moaA,"GTP 3',8-cyclase MoaA",CDS,1005.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Molybdopterin_Biosynthesis
@@ -4807,8 +4807,8 @@ PP_4673,PP_RS24340,recB,exodeoxyribonuclease V subunit beta,CDS,3675.0,
 PP_4674,PP_RS24345,recC,exodeoxyribonuclease V subunit gamma,CDS,3483.0,
 PP_5SG,PP_RS24350,rrf,5S ribosomal RNA,rRNA,116.0,Translation
 PP_23SG,PP_RS24355,,23S ribosomal RNA,rRNA,2893.0,Translation
-PP_t51,PP_RS24360,,tRNA-Ala,tRNA,76.0,Translation
-PP_t50,PP_RS24365,,tRNA-Ile,tRNA,77.0,Translation
+PP_t51,PP_RS24360,,tRNA-Ala,tRNA,76.0,tRNA Charging
+PP_t50,PP_RS24365,,tRNA-Ile,tRNA,77.0,tRNA Charging
 PP_16SG,PP_RS24370,,16S ribosomal RNA,rRNA,1537.0,Translation
 PP_4675,PP_RS24375,msrQ,protein-methionine-sulfoxide reductase heme-binding subunit MsrQ,CDS,594.0,
 PP_4676,PP_RS24380,msrP,protein-methionine-sulfoxide reductase catalytic subunit MsrP,CDS,1014.0,
@@ -4822,8 +4822,8 @@ PP_4683,PP_RS24415,mrcB,penicillin-binding protein 1B,CDS,2322.0,Metabolic:S_Cel
 PP_4684,PP_RS24420,,bifunctional aminoglycoside phosphotransferase/ATP-binding protein,CDS,1563.0,
 PP_4685,PP_RS24425,,TfoX/Sxy family protein,CDS,279.0,
 PP_4686,PP_RS24430,,ChaN family lipoprotein,CDS,885.0,Metabolic:S_Transport__ABC_system
-PP_4687,PP_RS24435,,heme ABC transporter ATP-binding protein,CDS,768.0,Metabolic:S_Transport__ABC_system
-PP_4688,PP_RS24440,,iron ABC transporter permease,CDS,984.0,Metabolic:S_Transport__ABC_system
+PP_4687,PP_RS24435,,heme ABC transporter ATP-binding protein,CDS,768.0,Metabolic:S_Transport__Outer_Membrane
+PP_4688,PP_RS24440,,iron ABC transporter permease,CDS,984.0,Metabolic:S_Transport__Outer_Membrane
 PP_4689,PP_RS24445,,hemin ABC transporter substrate-binding protein,CDS,885.0,Metabolic:S_Transport__ABC_system
 PP_4690,PP_RS24450,,Rieske (2Fe-2S) protein,CDS,345.0,
 PP_4691,PP_RS24455,sfsA,DNA/RNA nuclease SfsA,CDS,714.0,
@@ -4844,15 +4844,15 @@ PP_4704,PP_RS24525,,DUF748 domain-containing protein,CDS,2937.0,
 PP_4705,PP_RS24530,,VOC family protein,CDS,414.0,
 PP_4706,PP_RS24535,,putative quinol monooxygenase,CDS,303.0,
 PP_4707,PP_RS24540,,BON domain-containing protein,CDS,351.0,
-PP_4708,PP_RS24545,pnp,polyribonucleotide nucleotidyltransferase,CDS,2106.0,Translation
+PP_4708,PP_RS24545,pnp,polyribonucleotide nucleotidyltransferase,CDS,2106.0,Transcription
 PP_4709,PP_RS24550,rpsO,30S ribosomal protein S15,CDS,270.0,Translation
 PP_4710,PP_RS24555,truB,tRNA pseudouridine(55) synthase TruB,CDS,918.0,
 PP_4711,PP_RS24560,rbfA,30S ribosome-binding factor RbfA,CDS,399.0,Translation
 PP_4712,PP_RS24565,infB,translation initiation factor IF-2,CDS,2541.0,Translation
 PP_4713,PP_RS24570,nusA,transcription termination factor NusA,CDS,1482.0,Transcription
 PP_4714,PP_RS24575,rimP,ribosome maturation factor RimP,CDS,459.0,
-PP_t49,PP_RS24580,,tRNA-Met,tRNA,77.0,Translation
-PP_t48,PP_RS24585,,tRNA-Leu,tRNA,86.0,Translation
+PP_t49,PP_RS24580,,tRNA-Met,tRNA,77.0,tRNA Charging
+PP_t48,PP_RS24585,,tRNA-Leu,tRNA,86.0,tRNA Charging
 PP_5706,PP_RS24590,secG,preprotein translocase subunit SecG,CDS,399.0,Post-translation
 PP_4715,PP_RS24595,tpiA,triose-phosphate isomerase,CDS,756.0,Metabolic:S_Gluconeogenesis
 PP_4716,PP_RS24600,glmM,phosphoglucosamine mutase,CDS,1341.0,Metabolic:S_Cell_Envelope_Biosynthesis
@@ -4905,7 +4905,7 @@ PP_4758,PP_RS24830,,MFS transporter,CDS,1353.0,Metabolic:S_Transport__Inner_Memb
 PP_4759,PP_RS24835,,FadR/GntR family transcriptional regulator,CDS,702.0,
 PP_4760,PP_RS24840,,NAD(P)-dependent alcohol dehydrogenase,CDS,1011.0,
 PP_4761,PP_RS24845,,HAD family hydrolase,CDS,591.0,
-PP_4762,PP_RS24850,tesB,acyl-CoA thioesterase II,CDS,870.0,Metabolic:S_Fatty_Acid_Metabolism
+PP_4762,PP_RS24850,tesB,acyl-CoA thioesterase II,CDS,870.0,Metabolic:S_PHAs_Metabolism
 PP_4763,PP_RS24855,,GNAT family N-acetyltransferase,CDS,570.0,
 PP_5712,PP_RS24860,,histidine phosphatase family protein,CDS,687.0,
 PP_4764,PP_RS24865,,histone deacetylase,CDS,915.0,
@@ -5029,8 +5029,8 @@ PP_4877,PP_RS25450,rpsF,30S ribosomal protein S6,CDS,426.0,Translation
 PP_4878,PP_RS25455,,IS110 family transposase,CDS,201.0,
 PP_4879,PP_RS25460,rlmB,23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB,CDS,747.0,Translation
 PP_4880,PP_RS25465,rnr,ribonuclease R,CDS,2574.0,
-PP_t46,PP_RS25470,,tRNA-Leu,tRNA,87.0,Translation
-PP_t47,PP_RS25475,,tRNA-Leu,tRNA,87.0,Translation
+PP_t46,PP_RS25470,,tRNA-Leu,tRNA,87.0,tRNA Charging
+PP_t47,PP_RS25475,,tRNA-Leu,tRNA,87.0,tRNA Charging
 PP_4881,PP_RS25480,,extracellular solute-binding protein,CDS,1014.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_4882,PP_RS25485,,iron ABC transporter permease,CDS,1566.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_4884,PP_RS25495,,IS110 family transposase,CDS,162.0,
@@ -5052,8 +5052,8 @@ PP_4898,PP_RS25570,tsaE,tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase com
 PP_4899,PP_RS25575,,NAD(P)H-hydrate dehydratase,CDS,861.0,
 PP_4900,PP_RS25580,queG,tRNA epoxyqueuosine(34) reductase QueG,CDS,1065.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Queuosine_biosynthesis
 PP_4901,PP_RS25585,,trimeric intracellular cation channel family protein,CDS,612.0,
-PP_4902,PP_RS25590,orn,oligoribonuclease,CDS,543.0,Translation
-PP_4903,PP_RS25595,rsgA,small ribosomal subunit biogenesis GTPase RsgA,CDS,1032.0,Metabolic:S_Nucleotide_Salvage_Pathway
+PP_4902,PP_RS25590,orn,oligoribonuclease,CDS,543.0,Transcription
+PP_4903,PP_RS25595,rsgA,small ribosomal subunit biogenesis GTPase RsgA,CDS,1032.0,Metabolic:Biomass and maintenance functions
 PP_4904,PP_RS25600,motB,flagellar motor protein MotB,CDS,1041.0,
 PP_4905,PP_RS25605,motA,flagellar motor stator protein MotA,CDS,852.0,
 PP_4906,PP_RS25610,,HDOD domain-containing protein,CDS,1536.0,
@@ -5097,7 +5097,7 @@ PP_4943,PP_RS25795,,glycosyltransferase,CDS,1131.0,Metabolic:S_Cell_Envelope_Bio
 PP_4944,PP_RS25800,,carbamoyltransferase,CDS,1758.0,Metabolic:S_Cell_Envelope_Biosynthesis__LPS_Biosynthesis
 PP_4945,PP_RS25805,rlmJ,23S rRNA (adenine(2030)-N(6))-methyltransferase RlmJ,CDS,837.0,
 PP_4946,PP_RS25810,putP,sodium/proline symporter PutP,CDS,1479.0,Metabolic:S_Transport__Inner_Membrane
-PP_4947,PP_RS25815,putA,trifunctional transcriptional regulator/proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase,CDS,3954.0,Metabolic:S_Arginine_and_Proline_Metabolism
+PP_4947,PP_RS25815,putA,trifunctional transcriptional regulator/proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase,CDS,3954.0,Metabolic:S_Glutamate_Metabolism
 PP_5718,PP_RS25820,,hypothetical protein,CDS,684.0,
 PP_4948,PP_RS25825,,acyl-CoA dehydrogenase,CDS,1803.0,
 PP_4949,PP_RS25830,,TldD/PmbA family protein,CDS,1443.0,
@@ -5219,7 +5219,7 @@ PP_5065,PP_RS26405,,dermonecrotic toxin domain-containing protein,CDS,2151.0,
 PP_5066,PP_RS26410,,potassium/proton antiporter,CDS,1743.0,Metabolic:S_Transport__Inner_Membrane
 PP_5067,PP_RS26415,mscK,mechanosensitive channel MscK,CDS,3309.0,
 PP_5068,PP_RS26420,,protein adenylyltransferase SelO,CDS,1461.0,
-PP_5069,PP_RS26425,trxC,thioredoxin TrxC,CDS,435.0,Metabolic:Unassigned
+PP_5069,PP_RS26425,trxC,thioredoxin TrxC,CDS,435.0,Metabolic:S_Sulfur_Metabolism
 PP_5070,PP_RS26430,,ParA family protein,CDS,774.0,
 PP_5071,PP_RS26435,,LysR family transcriptional regulator,CDS,900.0,
 PP_5072,PP_RS26440,,MFS transporter,CDS,1188.0,
@@ -5250,7 +5250,7 @@ PP_5096,PP_RS26560,,YggT family protein,CDS,591.0,
 PP_5097,PP_RS26565,,homoserine O-acetyltransferase,CDS,1140.0,Metabolic:S_Methionine_Metabolism
 PP_5098,PP_RS26570,metW,methionine biosynthesis protein MetW,CDS,621.0,Metabolic:S_Methionine_Metabolism
 PP_5099,PP_RS26575,,DUF4426 domain-containing protein,CDS,435.0,
-PP_5100,PP_RS26580,rdgB,RdgB/HAM1 family non-canonical purine NTP pyrophosphatase,CDS,597.0,Metabolic:S_Nucleotide_Salvage_Pathway
+PP_5100,PP_RS26580,rdgB,RdgB/HAM1 family non-canonical purine NTP pyrophosphatase,CDS,597.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Thiamine_Metabolism
 PP_5101,PP_RS26585,hemW,radical SAM family heme chaperone HemW,CDS,1176.0,
 PP_5102,PP_RS26590,,DUF3392 domain-containing protein,CDS,327.0,
 PP_5103,PP_RS26595,trmB,tRNA (guanosine(46)-N7)-methyltransferase TrmB,CDS,723.0,tRNA Charging
@@ -5337,7 +5337,7 @@ PP_5182,PP_RS26995,,aspartate aminotransferase family protein,CDS,1362.0,Metabol
 PP_5183,PP_RS27000,,glutamine synthetase family protein,CDS,1359.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
 PP_5184,PP_RS27010,,glutamine synthetase family protein,CDS,1377.0,Metabolic:S_Alternate_Carbon_and_Nitrogen_source__Amines_and_Polyamines_Metabolism
 PP_5185,PP_RS27015,argA,amino-acid N-acetyltransferase,CDS,1299.0,Metabolic:S_Urea_cycleamino_group_metabolism
-PP_5186,PP_RS27020,argE,acetylornithine deacetylase,CDS,1143.0,Metabolic:S_Arginine_and_Proline_Metabolism
+PP_5186,PP_RS27020,argE,acetylornithine deacetylase,CDS,1143.0,Metabolic:S_Urea_cycleamino_group_metabolism
 PP_5187,PP_RS27025,,inorganic triphosphatase,CDS,1368.0,
 PP_5188,PP_RS27030,,Lrp/AsnC family transcriptional regulator,CDS,471.0,
 PP_5189,PP_RS27035,,hypothetical protein,CDS,306.0,
@@ -5369,7 +5369,7 @@ PP_5212,PP_RS27160,,"CDP-6-deoxy-delta-3,4-glucoseen reductase",CDS,969.0,
 PP_5213,PP_RS27165,ubiD,4-hydroxy-3-polyprenylbenzoate decarboxylase,CDS,1467.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Ubiquinone_biosynthesis
 PP_5214,PP_RS27170,rho,transcription termination factor Rho,CDS,1260.0,Transcription
 PP_5215,PP_RS27175,trxA,thioredoxin TrxA,CDS,330.0,tRNA Charging
-PP_5216,PP_RS27180,ppx,exopolyphosphatase,CDS,1503.0,Metabolic:S_Inorganic_polyphosphates_metabolism
+PP_5216,PP_RS27180,ppx,exopolyphosphatase,CDS,1503.0,Metabolic:S_Purine_Metabolism
 PP_5217,PP_RS27185,ppk1,polyphosphate kinase 1,CDS,2244.0,Metabolic:S_Inorganic_polyphosphates_metabolism
 PP_5218,PP_RS27190,,DedA family protein,CDS,645.0,
 PP_5220,PP_RS27200,elbB,isoprenoid biosynthesis glyoxalase ElbB,CDS,660.0,
@@ -5442,7 +5442,7 @@ PP_5283,PP_RS27535,,ABC transporter substrate-binding protein,CDS,1590.0,
 PP_5284,PP_RS27540,radC,DNA repair protein RadC,CDS,681.0,
 PP_5285,PP_RS27545,coaBC,bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC,CDS,1212.0,Metabolic:S_Cofactor_and_Prosthetic_Group_Biosynthesis__Pantothenate_and_CoA_Biosynthesis
 PP_5286,PP_RS27550,dut,dUTP diphosphatase,CDS,456.0,Metabolic:S_Pyrimidine_Metabolism
-PP_5288,PP_RS27555,,phosphomannomutase/phosphoglucomutase,CDS,1401.0,Metabolic:S_Cell_Envelope_Biosynthesis
+PP_5288,PP_RS27555,,phosphomannomutase/phosphoglucomutase,CDS,1401.0,Metabolic:S_Alternate_Carbon__Ribose_Metabolism
 PP_5289,PP_RS27560,argB,acetylglutamate kinase,CDS,906.0,Metabolic:S_Urea_cycleamino_group_metabolism
 PP_5290,PP_RS27565,,IS110-like element ISPpu10 family transposase,CDS,966.0,
 PP_5291,PP_RS27570,pyrE,orotate phosphoribosyltransferase,CDS,642.0,Metabolic:S_Pyrimidine_Metabolism
@@ -5460,9 +5460,9 @@ PP_5302,PP_RS27625,spoT,"bifunctional GTP diphosphokinase/guanosine-3',5'-bis py
 PP_5303,PP_RS27630,,RidA family protein,CDS,381.0,
 PP_5304,PP_RS27635,,lipoprotein,CDS,732.0,
 PP_5305,PP_RS27640,,SDR family oxidoreductase,CDS,858.0,
-PP_5306,PP_RS27645,exbB,tonB-system energizer ExbB,CDS,963.0,Metabolic:S_Transport__Outer_Membrane
-PP_5307,PP_RS27650,exbD,TonB system transport protein ExbD,CDS,429.0,Metabolic:S_Transport__Outer_Membrane
-PP_5308,PP_RS27655,,energy transducer TonB,CDS,732.0,Metabolic:S_Transport__Outer_Membrane
+PP_5306,PP_RS27645,exbB,tonB-system energizer ExbB,CDS,963.0,Metabolic:S_Iron_uptake_and_metabolism
+PP_5307,PP_RS27650,exbD,TonB system transport protein ExbD,CDS,429.0,Metabolic:S_Iron_uptake_and_metabolism
+PP_5308,PP_RS27655,,energy transducer TonB,CDS,732.0,Metabolic:S_Iron_uptake_and_metabolism
 PP_5309,PP_RS27660,,hydrogen peroxide-inducible genes activator,CDS,927.0,
 PP_5310,PP_RS27665,recG,ATP-dependent DNA helicase RecG,CDS,2079.0,
 PP_5311,PP_RS27670,,aminoacyl-tRNA deacylase and HDOD domain-containing protein,CDS,1404.0,
@@ -5519,7 +5519,7 @@ PP_5362,PP_RS27920,,hypothetical protein,CDS,381.0,
 PP_5363,PP_RS27925,,DUF3617 domain-containing protein,CDS,528.0,
 PP_5364,PP_RS27930,cls,cardiolipin synthase,CDS,1440.0,Metabolic:S_Glycerophospholipid_Metabolism
 PP_5365,PP_RS27935,cfaB,C17 cyclopropane fatty acid synthase CfaB,CDS,1185.0,Metabolic:S_Fatty_Acid__Biosynthesis
-PP_5366,PP_RS27940,lpdA,dihydrolipoyl dehydrogenase,CDS,1401.0,Metabolic:S_Glycolysis
+PP_5366,PP_RS27940,lpdA,dihydrolipoyl dehydrogenase,CDS,1401.0,Metabolic:S_TCA_Cycle
 PP_5368,PP_RS27955,,MFS transporter,CDS,1158.0,
 PP_5369,PP_RS27960,,ethanolamine utilization protein EutQ,CDS,372.0,
 PP_5370,PP_RS27965,,FAD-binding oxidoreductase,CDS,1329.0,
@@ -5577,4 +5577,4 @@ PP_5418,PP_RS28235,atpE,F0F1 ATP synthase subunit C,CDS,258.0,Metabolic:S_Oxidat
 PP_5419,PP_RS28240,atpB,F0F1 ATP synthase subunit A,CDS,870.0,Metabolic:S_Oxidative_Phosphorylation
 PP_5420,PP_RS28245,,F0F1 ATP synthase subunit I,CDS,408.0,Metabolic:S_Oxidative_Phosphorylation
 PP_0688,,,,,,Translation
-PP_t57,,,,,,Translation
+PP_t57,,,,,,tRNA Charging
