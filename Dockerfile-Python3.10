@@ -30,7 +30,6 @@ WORKDIR /opt/notebooks
 
 # Set jupyter configuration
 RUN jupyter notebook --generate-config
-# RUN wget https://raw.githubusercontent.com/glucksfall/zenglerlab/master/jupyter_notebook_config.json --directory-prefix=/root/.jupyter
 COPY ./jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
 
 # Initiate jupyter server at runtime
