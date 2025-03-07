@@ -232,9 +232,6 @@ PP_1154,57.0,96.0,154.0,PP_RS05990,,EAL domain-containing protein,CDS,2586
 PP_1155,11.0,48.0,69.0,PP_RS05995,,diguanylate cyclase,CDS,1074
 PP_1156,29.0,48.0,19.0,PP_RS06000,,formate/nitrite transporter family protein,CDS,897
 PP_0118,14.0,35.0,21.0,PP_RS00605,znuC,zinc ABC transporter ATP-binding protein ZnuC,CDS,774
-PP_16SE,8538000.0,7774473.0,6993574.0,PP_RS06005,,16S ribosomal RNA,rRNA,1537
-PP_23SE,12857880.0,15249819.0,13861912.0,PP_RS06010,,23S ribosomal RNA,rRNA,2893
-PP_5SE,26.0,460.0,291.0,PP_RS06015,rrf,5S ribosomal RNA,rRNA,116
 PP_1157,33.0,118.0,86.0,PP_RS06020,,acetolactate synthase large subunit,CDS,1644
 PP_1158,21.0,10.0,13.0,PP_RS06025,,nitrilase family protein,CDS,896
 PP_1159,27.0,24.0,9.0,PP_RS06030,,hypothetical protein,CDS,1155
@@ -711,7 +708,6 @@ PP_1582,31.0,30.0,29.0,PP_RS08160,,hypothetical protein,CDS,1077
 PP_1583,4.0,3.0,0.0,PP_RS08165,,structural protein P5,CDS,444
 PP_1584,0.0,6.0,0.0,PP_RS08170,,DUF2514 domain-containing protein,CDS,501
 PP_5476,7.0,6.0,9.0,PP_RS08175,,hypothetical protein,CDS,303
-PP_16SA,8403691.0,7866372.0,7032265.0,PP_RS00825,,16S ribosomal RNA,rRNA,1537
 PP_1585,7.0,50.0,31.0,PP_RS08180,graA,type II toxin-antitoxin system antitoxin GraA,CDS,300
 PP_1586,16.0,62.0,33.0,PP_RS08185,graT,type II toxin-antitoxin system toxin GraT,CDS,279
 PP_1587,67.0,119.0,164.0,PP_RS08190,,Na+/H+ antiporter,CDS,1647
@@ -722,7 +718,6 @@ PP_1591,522.0,1974.0,1777.0,PP_RS08210,rpsB,30S ribosomal protein S2,CDS,738
 PP_1592,163.0,577.0,473.0,PP_RS08215,tsf,translation elongation factor Ts,CDS,864
 PP_1593,63.0,221.0,235.0,PP_RS08220,pyrH,UMP kinase,CDS,744
 PP_1594,83.0,248.0,252.0,PP_RS08225,frr,ribosome recycling factor,CDS,558
-PP_23SA,12757979.0,15312629.0,13856185.0,PP_RS00830,,23S ribosomal RNA,rRNA,2893
 PP_1595,10.0,47.0,34.0,PP_RS08230,uppS,polyprenyl diphosphate synthase,CDS,756
 PP_1596,6.0,48.0,35.0,PP_RS08235,,phosphatidate cytidylyltransferase,CDS,816
 PP_1597,12.0,36.0,44.0,PP_RS08240,ispC,1-deoxy-D-xylulose-5-phosphate reductoisomerase,CDS,1191
@@ -733,7 +728,6 @@ PP_1601,42.0,155.0,108.0,PP_RS08260,lpxD,UDP-3-O-(3-hydroxymyristoyl)glucosamine
 PP_1602,47.0,133.0,127.0,PP_RS08265,fabZ,3-hydroxyacyl-ACP dehydratase FabZ,CDS,441
 PP_1603,38.0,118.0,104.0,PP_RS08270,lpxA,acyl-ACP--UDP-N-acetylglucosamine O-acyltransferase,CDS,777
 PP_1604,30.0,67.0,62.0,PP_RS08275,lpxB,lipid-A-disaccharide synthase,CDS,1128
-PP_5SA,14.0,420.0,342.0,PP_RS00835,rrf,5S ribosomal RNA,rRNA,116
 PP_1605,18.0,22.0,47.0,PP_RS08280,rnhB,ribonuclease HII,CDS,624
 PP_1606,127.0,352.0,296.0,PP_RS08285,dnaE,DNA polymerase III subunit alpha,CDS,3525
 PP_1607,150.0,284.0,232.0,PP_RS08290,,acetyl-CoA carboxylase carboxyltransferase subunit alpha,CDS,948
@@ -744,7 +738,6 @@ PP_1612,103.0,335.0,259.0,PP_RS08310,eno,phosphopyruvate hydratase,CDS,1290
 PP_1613,15.0,21.0,26.0,PP_RS08315,ftsB,cell division protein FtsB,CDS,282
 PP_1614,12.0,40.0,36.0,PP_RS08320,ispD,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,CDS,708
 PP_1615,21.0,180.0,181.0,PP_RS08325,,LysR substrate-binding domain-containing protein,CDS,897
-PP_16SB,8472492.0,7981535.0,7144304.0,PP_RS00840,,16S ribosomal RNA,rRNA,1537
 PP_1616,42.0,85.0,96.0,PP_RS08330,,S-(hydroxymethyl)glutathione dehydrogenase/class III alcohol dehydrogenase,CDS,1113
 PP_1617,14.0,43.0,24.0,PP_RS08335,fghA,S-formylglutathione hydrolase,CDS,855
 PP_1618,6.0,76.0,48.0,PP_RS08340,ispF,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",CDS,474
@@ -755,7 +748,6 @@ PP_1622,172.0,795.0,658.0,PP_RS08360,,peptidoglycan DD-metalloendopeptidase fami
 PP_1623,315.0,684.0,1082.0,PP_RS08365,rpoS,RNA polymerase sigma factor RpoS,CDS,1008
 PP_1624,22.0,44.0,34.0,PP_RS08370,ltrA,group II intron reverse transcriptase/maturase,CDS,1422
 PP_1625,33.0,47.0,61.0,PP_RS08375,fdxA,ferredoxin FdxA,CDS,324
-PP_23SB,12380046.0,14687563.0,13319129.0,PP_RS00845,,23S ribosomal RNA,rRNA,2893
 PP_1626,57.0,201.0,217.0,PP_RS08380,mutS,DNA mismatch repair protein MutS,CDS,2574
 PP_1627,20.0,46.0,16.0,PP_RS08385,,hypothetical protein,CDS,1068
 PP_1628,12.0,18.0,18.0,PP_RS08390,,CinA family protein,CDS,483
@@ -767,7 +759,6 @@ PP_1633,8.0,50.0,62.0,PP_RS08415,,quorum-sensing-regulated virulence factor fami
 PP_1634,9.0,34.0,31.0,PP_RS08420,,tRNA-uridine aminocarboxypropyltransferase,CDS,711
 PP_1635,12.0,86.0,97.0,PP_RS08425,erdR,response regulator transcription factor ErdR,CDS,651
 PP_0016,103.0,112.0,71.0,PP_RS00085,,TniQ family protein,CDS,1917
-PP_r01,18.0,401.0,296.0,PP_RS00850,rrf,5S ribosomal RNA,rRNA,116
 PP_1636,3.0,21.0,7.0,PP_RS08430,,diacylglycerol kinase,CDS,366
 PP_1637,48.0,362.0,279.0,PP_RS08435,finR,LysR family transcriptional regulator FinR,CDS,927
 PP_1638,308.0,1355.0,1315.0,PP_RS08440,fpr,ferredoxin-NADP reductase,CDS,780
@@ -778,7 +769,6 @@ PP_1642,5.0,48.0,29.0,PP_RS08460,,DNA-3-methyladenine glycosylase I,CDS,672
 PP_1643,11.0,20.0,35.0,PP_RS08465,,DUF2069 domain-containing protein,CDS,414
 PP_1644,4.0,56.0,53.0,PP_RS08470,wrbA,NAD(P)H:quinone oxidoreductase,CDS,606
 PP_1645,4.0,77.0,120.0,PP_RS08475,arsC,arsenate reductase (glutaredoxin),CDS,354
-PP_5SB,5.0,196.0,173.0,PP_RS00855,rrf,5S ribosomal RNA,rRNA,116
 PP_1646,46.0,161.0,164.0,PP_RS08480,,peroxiredoxin family protein,CDS,465
 PP_1647,7.0,13.0,13.0,PP_RS08485,,META domain-containing protein,CDS,405
 PP_1648,15.0,26.0,30.0,PP_RS08490,,hypothetical protein,CDS,438
@@ -1456,11 +1446,8 @@ PP_2238,37.0,202.0,184.0,PP_RS11595,,aminopeptidase P family protein,CDS,1809
 PP_5504,18.0,38.0,56.0,PP_RS11600,,hypothetical protein,CDS,282
 PP_0219,13.0,16.0,12.0,PP_RS01165,,methionine ABC transporter permease,CDS,645
 PP_2239,13.0,22.0,16.0,PP_RS11605,rhtA,threonine/homoserine exporter RhtA,CDS,888
-PP_16SF,8504206.0,7862366.0,6974555.0,PP_RS11610,,16S ribosomal RNA,rRNA,1537
 PP_t35,0.0,0.0,2.0,PP_RS11615,,tRNA-Ile,tRNA,77
 PP_t36,0.0,0.0,4.0,PP_RS11620,,tRNA-Ala,tRNA,76
-PP_23SF,12166760.0,14519944.0,13259564.0,PP_RS11625,,23S ribosomal RNA,rRNA,2893
-PP_5SF,17.0,453.0,435.0,PP_RS11630,rrf,5S ribosomal RNA,rRNA,116
 PP_2240,27.0,25.0,34.0,PP_RS11635,,ABC transporter ATP-binding protein/permease,CDS,1809
 PP_2241,22.0,14.0,13.0,PP_RS11640,,MFS transporter,CDS,1200
 PP_2242,41.0,30.0,14.0,PP_RS11645,,TonB-dependent siderophore receptor,CDS,2235
@@ -3913,7 +3900,6 @@ PP_4415,52.0,45.0,78.0,PP_RS22905,,tyrosine-type recombinase/integrase,CDS,1101
 PP_5675,3.0,4.0,2.0,PP_RS22910,,hypothetical protein,CDS,225
 PP_5676,14.0,47.0,48.0,PP_RS22915,,hypothetical protein,CDS,402
 PP_5677,13.0,27.0,23.0,PP_RS22920,,hypothetical protein,CDS,219
-PP_16SC,8963221.0,7947355.0,7120928.0,PP_RS02295,,16S ribosomal RNA,rRNA,1537
 PP_5678,18.0,16.0,23.0,PP_RS22930,,hypothetical protein,CDS,291
 PP_4418,57.0,33.0,39.0,PP_RS22935,,hypothetical protein,CDS,324
 PP_4420,58.0,36.0,27.0,PP_RS22940,,IS3 family transposase,CDS,1163
@@ -3923,7 +3909,6 @@ PP_4423,33.0,17.0,18.0,PP_RS22960,doeB,"N(2)-acetyl-L-2,4-diaminobutanoate deace
 PP_4424,14.0,38.0,28.0,PP_RS22965,,Lrp/AsnC family transcriptional regulator,CDS,468
 PP_4425,28.0,24.0,20.0,PP_RS22970,ehuA,ectoine/hydroxyectoine ABC transporter ATP-binding protein EhuA,CDS,768
 PP_4426,24.0,10.0,8.0,PP_RS22975,ehuD,ectoine/hydroxyectoine ABC transporter permease subunit EhuD,CDS,657
-PP_23SC,12903477.0,15746598.0,14314174.0,PP_RS02300,,23S ribosomal RNA,rRNA,2893
 PP_4427,21.0,24.0,13.0,PP_RS22980,ehuC,ectoine/hydroxyectoine ABC transporter permease subunit EhuC,CDS,657
 PP_4428,23.0,39.0,21.0,PP_RS22985,ehuB,ectoine/hydroxyectoine ABC transporter substrate-binding protein EhuB,CDS,855
 PP_4429,95.0,123.0,114.0,PP_RS22990,,PLP-dependent aminotransferase family protein,CDS,1398
@@ -3933,7 +3918,6 @@ PP_4432,19.0,17.0,23.0,PP_RS23005,doeA,ectoine hydrolase DoeA,CDS,1191
 PP_4433,54.0,8.0,10.0,PP_RS23010,,MFS transporter,CDS,1293
 PP_4434,83.0,111.0,111.0,PP_RS23015,,D-amino acid dehydrogenase,CDS,1299
 PP_4435,32.0,58.0,52.0,PP_RS23020,,RidA family protein,CDS,354
-PP_5SC,17.0,437.0,308.0,PP_RS02305,rrf,5S ribosomal RNA,rRNA,116
 PP_4438,3.0,2.0,2.0,PP_RS28700,tnpB,IS66 family insertion sequence element accessory protein TnpB,CDS,336
 PP_4439,30.0,52.0,31.0,PP_RS23040,,IS66 family transposase,CDS,1536
 PP_4441,0.0,1.0,2.0,PP_RS23050,,transposase,CDS,321
@@ -4223,12 +4207,9 @@ PP_4671,11.0,12.0,8.0,PP_RS24330,,YfiR family protein,CDS,567
 PP_4672,21.0,43.0,52.0,PP_RS24335,recD,exodeoxyribonuclease V subunit alpha,CDS,2076
 PP_4673,55.0,96.0,109.0,PP_RS24340,recB,exodeoxyribonuclease V subunit beta,CDS,3675
 PP_4674,72.0,108.0,119.0,PP_RS24345,recC,exodeoxyribonuclease V subunit gamma,CDS,3483
-PP_5SG,25.0,414.0,396.0,PP_RS24350,rrf,5S ribosomal RNA,rRNA,116
-PP_23SG,12707329.0,15059948.0,13678222.0,PP_RS24355,,23S ribosomal RNA,rRNA,2893
 PP_0459,1325.0,1104.0,815.0,PP_RS02440,rplV,50S ribosomal protein L22,CDS,333
 PP_t51,0.0,2.0,0.0,PP_RS24360,,tRNA-Ala,tRNA,76
 PP_t50,0.0,6.0,2.0,PP_RS24365,,tRNA-Ile,tRNA,77
-PP_16SG,8556394.0,7841170.0,7029803.0,PP_RS24370,,16S ribosomal RNA,rRNA,1537
 PP_4675,17.0,24.0,14.0,PP_RS24375,msrQ,protein-methionine-sulfoxide reductase heme-binding subunit MsrQ,CDS,594
 PP_4676,26.0,31.0,26.0,PP_RS24380,msrP,protein-methionine-sulfoxide reductase catalytic subunit MsrP,CDS,1014
 PP_4677,33.0,86.0,86.0,PP_RS24385,pssA,CDP-diacylglycerol--serine O-phosphatidyltransferase,CDS,852
@@ -5148,11 +5129,8 @@ PP_0060,47.0,172.0,197.0,PP_RS00310,glyS,glycine--tRNA ligase subunit beta,CDS,2
 PP_0595,21.0,45.0,38.0,PP_RS03130,,LysR family transcriptional regulator,CDS,918
 PP_0596,144.0,306.0,390.0,PP_RS03135,,aspartate aminotransferase family protein,CDS,1347
 PP_0597,71.0,160.0,222.0,PP_RS03140,,CoA-acylating methylmalonate-semialdehyde dehydrogenase,CDS,1494
-PP_16SD,8899333.0,7918796.0,7029317.0,PP_RS03145,,16S ribosomal RNA,rRNA,1537
 PP_t05,0.0,4.0,2.0,PP_RS03150,,tRNA-Ile,tRNA,77
 PP_t06,0.0,0.0,2.0,PP_RS03155,,tRNA-Ala,tRNA,76
-PP_23SD,12852444.0,15203529.0,13907185.0,PP_RS03160,,23S ribosomal RNA,rRNA,2893
-PP_5SD,17.0,500.0,395.0,PP_RS03165,rrf,5S ribosomal RNA,rRNA,116
 PP_0598,35.0,61.0,41.0,PP_RS03170,,paraquat-inducible protein A,CDS,660
 PP_5745,18.0,42.0,40.0,PP_RS03175,,paraquat-inducible protein A,CDS,624
 PP_0061,57.0,233.0,204.0,PP_RS00315,glyQ,glycine--tRNA ligase subunit alpha,CDS,948
