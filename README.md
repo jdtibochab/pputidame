@@ -19,10 +19,12 @@ Install using Docker
 
 Understanding the layout of this repository
 -------------------------------------------
-Jupyter Notebooks are ordered here in logical order, where 
+Jupyter Notebooks contain the following analyses:
 
-0. include reconstruction and constraining of the ME-model
-1. include omics overview and analysis
-2. include comparison of model predictions and omics
-3. include the final visualization of the comparison
-4. include the allocation observed in the omics data
+0. Reconstruction and constraining of the ME-model
+1. Omics overview and analysis
+2. Comparison of model predictions and omics
+3. Final visualization of the comparison of model predictions and omics
+4. Allocation observed in the omics data
+5. Flux Variability Analysis of M- and ME-models
+6. Analysis of intracellular phenotype (comparison with MFA)
