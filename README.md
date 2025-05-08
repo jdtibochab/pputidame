@@ -1,4 +1,4 @@
-ME-model of *P.putida* KT2440 (*i*Ppu1676-ME)
+ME-model of *P. putida* KT2440 (*i*Ppu1676-ME)
 =============================================
 
 This repository contains all the information and building scripts required to construct a ME-model for *P. putida* KT2440, *i*Ppu1676-ME using
