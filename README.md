@@ -4,6 +4,7 @@ ME-model of *P. putida* KT2440 (*i*Ppu1676-ME)
 This repository contains all the information and building scripts required to construct a ME-model for *P. putida* KT2440, *i*Ppu1676-ME using
 [coralME](https://github.com/jdtibochab/coralME).
 
+If you are using *i*Ppu1676-ME, please cite *Tibocha-Bonilla, J.D., Gandhi, V., Lieng, C. et al. Model of metabolism and gene expression predicts proteome allocation in Pseudomonas putida. npj Syst Biol Appl 11, 55 (2025)*. https://doi.org/10.1038/s41540-025-00521-1.
 
 Install locally
 ---------------
